@@ -26,6 +26,8 @@ find_package(Qt6 REQUIRED COMPONENTS
 
 )
 
+
+target_include_directories(notebad PUBLIC ${CMAKE_SOURCE_DIR}/src)
 target_link_libraries(notebad PRIVATE
     Qt6::Widgets
 )

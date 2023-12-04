@@ -8,17 +8,17 @@ baseClass::baseClass(QWidget *parent)
     ui->setupUi(this);
 
     /*initiliaze the objects*/
-    new_action = new QAction;
     baseClass::setWindowTitle("notebad ++ implementation");
 
-    ui->actionNew->setText("New File.. \t \t Ctrl+N");
-    ui->actionOpen->setText("Open File.. \t \t Ctrl+O");
-    ui->actionOpen_Folder->setText("Open Folder.. \t \t Ctrl+F");
-    ui->actionSave->setText("Save %1 \t \t Ctrl+S");
+    ui->actionNew->setText("New File.. \t Ctrl+N");
+    ui->actionOpen->setText("Open File.. \t Ctrl+O");
+    ui->actionOpen_Folder->setText("Open Folder.. \t Ctrl+F");
+    ui->actionSave->setText("Save %1 \t Ctrl+S");
+    ui->actionExit->setText("Exit \t Ctrl+Q OR Alt+F4");
 
-    ui->actionCopy->setText("Copy /t /t Ctrl+C");
-    ui->actionPaste->setText("Paste \t \t Ctrl+V");
-    ui->actionSelect_All->setText("Select All \t \t Ctrl+A");
+    ui->actionCopy->setText("Copy \t Ctrl+C");
+    ui->actionPaste->setText("Paste \t Ctrl+V");
+    ui->actionSelect_All->setText("Select All \t Ctrl+A");
 
     settingToolBar();
 }
@@ -30,11 +30,26 @@ baseClass::~baseClass()
 
 void baseClass::settingToolBar()
 {
+    newAction = new QAction;
+    open_fileAction = new QAction;
+    open_folderAction = new QAction;
+    saveAction = new QAction;
 
-    new_action->setIcon(QPixmap(":/../resources/new_file.png"));
+    newAction->setIcon(QPixmap(":/resources/new_file.png"));
+    open_fileAction->setIcon(QIcon(":/resources/open_file.png"));
+    open_folderAction->setIcon(QIcon(":/resources/open_folder.png"));
+    saveAction->setIcon(QIcon(":/resources/save.png"));
+    newAction->setIconText("Koko");
 
     ui->toolBar->setMovable(false);
+    ui->toolBar->setIconSize(QSize(18, 18));
+    ui->toolBar->setMinimumSize(QSize(0, 40));
 
-    ui->toolBar->addAction(new_action);
+    ui->toolBar->addAction(newAction);
+    ui->toolBar->addAction(open_fileAction);
+    ui->toolBar->addAction(open_folderAction);
+    ui->toolBar->addAction(saveAction);
+
+    ui->toolBar->addSeparator();
 }
 

@@ -22,9 +22,10 @@ private:
 public:
     void settingToolBar();
 private:
-    QAction *new_action;
-    QAction *open_folder_action;
-    QAction *save_action;
+    QAction *newAction;
+    QAction *open_fileAction;
+    QAction *open_folderAction;
+    QAction *saveAction;
 
 };
 #endif // MAINWINDOW_H
