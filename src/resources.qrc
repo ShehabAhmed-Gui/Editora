@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../QtDeisgner-icons/red-black-icons/exit.png</file>
+        <file>../../../QtDeisgner-icons/red-black-icons/icons8-copy-64.png</file>
+        <file>../../../QtDeisgner-icons/red-black-icons/icons8-document-80.png</file>
+        <file>../../../QtDeisgner-icons/red-black-icons/icons8-opened-folder-50.png</file>
+        <file>../../../QtDeisgner-icons/red-black-icons/icons8-save-50.png</file>
+    </qresource>
+</RCC>
