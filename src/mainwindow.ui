@@ -134,32 +134,33 @@ QPlainTextEdit::focus
      <rect>
       <x>344</x>
       <y>105</y>
-      <width>200</width>
-      <height>181</height>
+      <width>250</width>
+      <height>209</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>200</width>
+      <width>250</width>
       <height>0</height>
      </size>
     </property>
     <property name="title">
      <string>File</string>
     </property>
-    <addaction name="actionNew_Ctrl_N"/>
-    <addaction name="actionOpen_Ctrl_O"/>
-    <addaction name="actionSave_Ctrl_S"/>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionOpen_Folder"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionExit"/>
     <addaction name="separator"/>
-    <addaction name="actionExit_Alt_F4"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
      <string>Edit</string>
     </property>
     <addaction name="actionPaste"/>
-    <addaction name="actionSelect_All_Ctrl_A"/>
-    <addaction name="actionCopy_Ctrl_C"/>
+    <addaction name="actionSelect_All"/>
+    <addaction name="actionCopy"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -193,37 +194,37 @@ QPlainTextEdit::focus
     <bool>false</bool>
    </attribute>
   </widget>
-  <action name="actionNew_Ctrl_N">
+  <action name="actionNew">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/QtDeisgner-icons/red-black-icons/icons8-document-80.png</normaloff>:/QtDeisgner-icons/red-black-icons/icons8-document-80.png</iconset>
+     <normaloff>:/resources/new_file.png</normaloff>:/resources/new_file.png</iconset>
    </property>
    <property name="text">
     <string>New..       Ctrl+N</string>
    </property>
   </action>
-  <action name="actionOpen_Ctrl_O">
+  <action name="actionOpen">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/QtDeisgner-icons/red-black-icons/icons8-opened-folder-50.png</normaloff>:/QtDeisgner-icons/red-black-icons/icons8-opened-folder-50.png</iconset>
+     <normaloff>:/resources/open_file.png</normaloff>:/resources/open_file.png</iconset>
    </property>
    <property name="text">
     <string>Open..      Ctrl+O</string>
    </property>
   </action>
-  <action name="actionSave_Ctrl_S">
+  <action name="actionSave">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/QtDeisgner-icons/red-black-icons/icons8-save-50.png</normaloff>:/QtDeisgner-icons/red-black-icons/icons8-save-50.png</iconset>
+     <normaloff>:/resources/save.png</normaloff>:/resources/save.png</iconset>
    </property>
    <property name="text">
     <string>Save..       Ctrl+S</string>
    </property>
   </action>
-  <action name="actionExit_Alt_F4">
+  <action name="actionExit">
    <property name="icon">
     <iconset resource="resources.qrc">
-     <normaloff>:/QtDeisgner-icons/red-black-icons/exit.png</normaloff>:/QtDeisgner-icons/red-black-icons/exit.png</iconset>
+     <normaloff>:/resources/exit.png</normaloff>:/resources/exit.png</iconset>
    </property>
    <property name="text">
     <string>Exit          Alt+F4</string>
@@ -234,14 +235,23 @@ QPlainTextEdit::focus
     <string>Paste             Ctrl+V</string>
    </property>
   </action>
-  <action name="actionSelect_All_Ctrl_A">
+  <action name="actionSelect_All">
    <property name="text">
     <string>Select All      Ctrl+A</string>
    </property>
   </action>
-  <action name="actionCopy_Ctrl_C">
+  <action name="actionCopy">
    <property name="text">
     <string>Copy             Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionOpen_Folder">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/resources/open_folder.png</normaloff>:/resources/open_folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Folder.. Ctrl+F</string>
    </property>
   </action>
  </widget>

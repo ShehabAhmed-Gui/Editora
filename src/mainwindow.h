@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QAction>
+#include <QToolButton>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,5 +19,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
+public:
+    void settingToolBar();
+private:
+    QAction *new_action;
+    QAction *open_folder_action;
+    QAction *save_action;
+
 };
 #endif // MAINWINDOW_H
