@@ -110,6 +110,7 @@ QMenu::item:selected
     </property>
     <addaction name="actionPaste"/>
     <addaction name="actionSelect_All_Ctrl_A"/>
+    <addaction name="actionCopy_Ctrl_C"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -158,6 +159,11 @@ QMenu::item:selected
   <action name="actionSelect_All_Ctrl_A">
    <property name="text">
     <string>Select All      Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionCopy_Ctrl_C">
+   <property name="text">
+    <string>Copy             Ctrl+C</string>
    </property>
   </action>
  </widget>
