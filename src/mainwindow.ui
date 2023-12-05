@@ -154,7 +154,7 @@ QTreeView
      <rect>
       <x>344</x>
       <y>105</y>
-      <width>500</width>
+      <width>160</width>
       <height>209</height>
      </rect>
     </property>
@@ -220,7 +220,7 @@ QTreeView
      <normaloff>:/resources/new_file.png</normaloff>:/resources/new_file.png</iconset>
    </property>
    <property name="text">
-    <string> </string>
+    <string/>
    </property>
   </action>
   <action name="actionOpen">
@@ -229,7 +229,7 @@ QTreeView
      <normaloff>:/resources/open_file.png</normaloff>:/resources/open_file.png</iconset>
    </property>
    <property name="text">
-    <string> </string>
+    <string/>
    </property>
   </action>
   <action name="actionSave">
@@ -238,7 +238,7 @@ QTreeView
      <normaloff>:/resources/save.png</normaloff>:/resources/save.png</iconset>
    </property>
    <property name="text">
-    <string> </string>
+    <string/>
    </property>
   </action>
   <action name="actionExit">
@@ -247,7 +247,7 @@ QTreeView
      <normaloff>:/resources/exit.png</normaloff>:/resources/exit.png</iconset>
    </property>
    <property name="text">
-    <string> </string>
+    <string/>
    </property>
   </action>
   <action name="actionPaste">
@@ -271,7 +271,7 @@ QTreeView
      <normaloff>:/resources/open_folder.png</normaloff>:/resources/open_folder.png</iconset>
    </property>
    <property name="text">
-    <string> </string>
+    <string/>
    </property>
   </action>
  </widget>

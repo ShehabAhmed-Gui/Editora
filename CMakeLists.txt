@@ -5,7 +5,9 @@ project(notebad VERSION 0.1 LANGUAGES CXX)
 set(srcs
         src/main.cpp
         src/mainwindow.cpp
+        src/fileshandler.cpp
         src/mainwindow.h
+        src/fileshandler.h
         src/mainwindow.ui
         src/resources.qrc
 )

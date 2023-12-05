@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QAction>
 #include <QToolButton>
+#include <fileshandler.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -21,11 +22,15 @@ private:
     Ui::MainWindow *ui;
 public:
     void settingToolBar();
+    fileshandler file;
 private:
     QAction *newAction;
     QAction *open_fileAction;
     QAction *open_folderAction;
     QAction *saveAction;
 
+    QStringList openedFiles;
+private slots:
+    void openFile();
 };
 #endif // MAINWINDOW_H
