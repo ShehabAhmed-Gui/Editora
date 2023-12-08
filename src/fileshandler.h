@@ -15,6 +15,15 @@ public:
     ~fileshandler();
 public:
     QByteArray openFile();
+    struct fileInfo
+    {
+        QString fileName;
+    };
+    fileInfo info;
+signals:
+    void saveFileTriggered(QString &file, const QString &contest);
+public slots:
+    bool saveFile(const QString &filepath, const QString &contest);
 private:
     QFileDialog dialog;
 };

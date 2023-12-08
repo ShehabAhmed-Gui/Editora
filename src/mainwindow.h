@@ -28,9 +28,11 @@ private:
     QAction *open_fileAction;
     QAction *open_folderAction;
     QAction *saveAction;
+    QStringList recentFiles;
 
-    QStringList openedFiles;
+
 private slots:
     void openFile();
+    void saveFile();
 };
 #endif // MAINWINDOW_H

@@ -35,7 +35,9 @@ void baseClass::settingToolBar()
     open_fileAction = new QAction;
     open_folderAction = new QAction;
     saveAction = new QAction;
+
     connect(open_fileAction, &QAction::triggered, this, &baseClass::openFile);
+    connect(saveAction, &QAction::triggered, this, &baseClass::saveFile);
 
     newAction->setIcon(QPixmap(":/resources/new_file.png"));
     open_fileAction->setIcon(QIcon(":/resources/open_file.png"));
@@ -56,5 +58,12 @@ void baseClass::settingToolBar()
 void baseClass::openFile()
 {
     ui->textEditor->setPlainText(file.openFile());
+    recentFiles.clear();
+    recentFiles.append(file.info.fileName);
+}
+
+void baseClass::saveFile()
+{
+    qDebug() << file.saveFile(recentFiles[0], ui->textEditor->toPlainText());
 }
 
