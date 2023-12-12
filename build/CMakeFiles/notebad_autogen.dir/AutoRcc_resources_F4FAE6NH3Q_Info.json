@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "E:/QtProjects/notebad/Debug",
+	"CMAKE_BINARY_DIR" : "E:/QtProjects/notebad/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/QtProjects/notebad/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/QtProjects/notebad",
+	"CMAKE_SOURCE_DIR" : "E:/QtProjects/notebad",
+	"INCLUDE_DIR" : "E:/QtProjects/notebad/Debug/include",
+	"INPUTS" : 
+	[
+		"E:/QtProjects/notebad/resources/exit.png",
+		"E:/QtProjects/notebad/resources/new_file.png",
+		"E:/QtProjects/notebad/resources/save.png",
+		"E:/QtProjects/notebad/resources/open_folder.png",
+		"E:/QtProjects/notebad/resources/open_file.png"
+	],
+	"LOCK_FILE" : "E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir/AutoRcc_resources_F4FAE6NH3Q_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "F4FAE6NH3Q",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.5.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir/AutoRcc_resources_F4FAE6NH3Q_Used.txt",
+	"SOURCE" : "E:/QtProjects/notebad/src/resources/resources.qrc",
+	"VERBOSITY" : 0
+}
