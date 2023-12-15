@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj.d"
   "CMakeFiles/notebad.dir/src/code_editor/codeeditor.cpp.obj"
   "CMakeFiles/notebad.dir/src/code_editor/codeeditor.cpp.obj.d"
+  "CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj"
+  "CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj.d"
   "CMakeFiles/notebad.dir/src/files_manager/fileshandler.cpp.obj"
   "CMakeFiles/notebad.dir/src/files_manager/fileshandler.cpp.obj.d"
   "CMakeFiles/notebad.dir/src/main.cpp.obj"

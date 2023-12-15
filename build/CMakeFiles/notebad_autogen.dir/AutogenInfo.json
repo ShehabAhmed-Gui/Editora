@@ -258,9 +258,21 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/QtProjects/notebad/src/code_editor/LineNumberArea.h",
+			"MU",
+			"7VUAZTOQ5C/moc_LineNumberArea.cpp",
+			null
+		],
+		[
 			"E:/QtProjects/notebad/src/code_editor/codeeditor.h",
 			"MU",
 			"7VUAZTOQ5C/moc_codeeditor.cpp",
+			null
+		],
+		[
+			"E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.h",
+			"MU",
+			"7VUAZTOQ5C/moc_syntaxhighlighter.cpp",
 			null
 		],
 		[
@@ -344,6 +356,11 @@
 	"SOURCES" : 
 	[
 		[ "E:/QtProjects/notebad/src/code_editor/codeeditor.cpp", "MU", null ],
+		[
+			"E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.cpp",
+			"MU",
+			null
+		],
 		[
 			"E:/QtProjects/notebad/src/files_manager/fileshandler.cpp",
 			"MU",

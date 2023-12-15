@@ -12,6 +12,11 @@ set(srcs
 
         src/code_editor/codeeditor.cpp
         src/code_editor/codeeditor.h
+        src/code_editor/LineNumberArea.h
+        src/code_editor/syntaxhighlighter.h
+        src/code_editor/syntaxhighlighter.cpp
+        src/code_editor/codeeditor.h
+        src/code_editor/codeeditor.cpp
 
         src/notebad/mainwindow.cpp
         src/notebad/mainwindow.h
@@ -39,8 +44,10 @@ target_include_directories(notebad PUBLIC
 
 find_package(Qt6 REQUIRED COMPONENTS
     Widgets
+    Gui
 )
 
 target_link_libraries(notebad PRIVATE
     Qt6::Widgets
+    Qt6::Gui
 )

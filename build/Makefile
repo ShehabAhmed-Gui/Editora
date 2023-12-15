@@ -213,6 +213,30 @@ src/code_editor/codeeditor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/code_editor/codeeditor.cpp.s
 .PHONY : src/code_editor/codeeditor.cpp.s
 
+src/code_editor/syntaxhighlighter.obj: src/code_editor/syntaxhighlighter.cpp.obj
+.PHONY : src/code_editor/syntaxhighlighter.obj
+
+# target to build an object file
+src/code_editor/syntaxhighlighter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj
+.PHONY : src/code_editor/syntaxhighlighter.cpp.obj
+
+src/code_editor/syntaxhighlighter.i: src/code_editor/syntaxhighlighter.cpp.i
+.PHONY : src/code_editor/syntaxhighlighter.i
+
+# target to preprocess a source file
+src/code_editor/syntaxhighlighter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.i
+.PHONY : src/code_editor/syntaxhighlighter.cpp.i
+
+src/code_editor/syntaxhighlighter.s: src/code_editor/syntaxhighlighter.cpp.s
+.PHONY : src/code_editor/syntaxhighlighter.s
+
+# target to generate assembly for a file
+src/code_editor/syntaxhighlighter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.s
+.PHONY : src/code_editor/syntaxhighlighter.cpp.s
+
 src/files_manager/fileshandler.obj: src/files_manager/fileshandler.cpp.obj
 .PHONY : src/files_manager/fileshandler.obj
 
@@ -304,6 +328,9 @@ help:
 	@echo ... src/code_editor/codeeditor.obj
 	@echo ... src/code_editor/codeeditor.i
 	@echo ... src/code_editor/codeeditor.s
+	@echo ... src/code_editor/syntaxhighlighter.obj
+	@echo ... src/code_editor/syntaxhighlighter.i
+	@echo ... src/code_editor/syntaxhighlighter.s
 	@echo ... src/files_manager/fileshandler.obj
 	@echo ... src/files_manager/fileshandler.i
 	@echo ... src/files_manager/fileshandler.s

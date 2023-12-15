@@ -17,11 +17,11 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QTreeView>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
+#include "codeeditor.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -43,7 +43,7 @@ public:
     QWidget *folder_tree_container;
     QVBoxLayout *verticalLayout;
     QTreeView *folder_tree_2;
-    QPlainTextEdit *textEditor;
+    CodeEditor *textEditor;
     QMenuBar *menubar;
     QMenu *menuFile;
     QMenu *menuEdit;
@@ -194,7 +194,7 @@ public:
 
         horizontalLayout_2->addWidget(folder_tree_container);
 
-        textEditor = new QPlainTextEdit(Body);
+        textEditor = new CodeEditor(Body);
         textEditor->setObjectName("textEditor");
 
         horizontalLayout_2->addWidget(textEditor);

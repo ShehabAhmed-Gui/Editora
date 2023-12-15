@@ -3,6 +3,7 @@ E:/QtProjects/notebad/Debug/7VUAZTOQ5C/moc_codeeditor.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QRegularExpression \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QSize \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QSizeF \
   C:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
@@ -73,6 +74,7 @@ E:/QtProjects/notebad/Debug/7VUAZTOQ5C/moc_codeeditor.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
@@ -117,6 +119,10 @@ E:/QtProjects/notebad/Debug/7VUAZTOQ5C/moc_codeeditor.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/QSyntaxHighlighter \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/QTextBlock \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/QTextCharFormat \
   C:/Qt/6.5.0/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
@@ -136,6 +142,7 @@ E:/QtProjects/notebad/Debug/7VUAZTOQ5C/moc_codeeditor.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
@@ -147,10 +154,12 @@ E:/QtProjects/notebad/Debug/7VUAZTOQ5C/moc_codeeditor.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qsyntaxhighlighter.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextlayout.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextobject.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
@@ -384,4 +393,5 @@ E:/QtProjects/notebad/Debug/7VUAZTOQ5C/moc_codeeditor.cpp: E:/QtProjects/notebad
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.h

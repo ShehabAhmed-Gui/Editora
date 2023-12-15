@@ -450,15 +450,23 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qmenubar.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qmenu.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QPlainTextEdit \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qplaintextedit.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtextedit.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolBar \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbar.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QTreeView \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtreeview.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QVBoxLayout \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ E:/QtProjects/notebad/src/code_editor/codeeditor.h \
+ E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QRegularExpression \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QSyntaxHighlighter \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qsyntaxhighlighter.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextobject.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextlayout.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qevent.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qpointer.h \
@@ -481,10 +489,16 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qglyphrun.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qrawfont.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qfontdatabase.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolBar \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbar.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QTreeView \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtreeview.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QVBoxLayout \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QTextCharFormat \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QPlainTextEdit \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qplaintextedit.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtextedit.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QTextBlock \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextobject.h

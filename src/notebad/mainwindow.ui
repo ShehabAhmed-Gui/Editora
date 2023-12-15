@@ -123,7 +123,7 @@ QTreeView
         </widget>
        </item>
        <item>
-        <widget class="QPlainTextEdit" name="textEditor">
+        <widget class="CodeEditor" name="textEditor">
          <property name="plainText">
           <string>fasdasdas</string>
          </property>
@@ -216,7 +216,7 @@ QTreeView
   </widget>
   <action name="actionNew">
    <property name="icon">
-    <iconset>
+    <iconset resource="../resources/resources.qrc">
      <normaloff>:/resources/new_file.png</normaloff>:/resources/new_file.png</iconset>
    </property>
    <property name="text">
@@ -225,7 +225,7 @@ QTreeView
   </action>
   <action name="actionOpen">
    <property name="icon">
-    <iconset>
+    <iconset resource="../resources/resources.qrc">
      <normaloff>:/resources/open_file.png</normaloff>:/resources/open_file.png</iconset>
    </property>
    <property name="text">
@@ -234,7 +234,7 @@ QTreeView
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset>
+    <iconset resource="../resources/resources.qrc">
      <normaloff>:/resources/save.png</normaloff>:/resources/save.png</iconset>
    </property>
    <property name="text">
@@ -243,7 +243,7 @@ QTreeView
   </action>
   <action name="actionExit">
    <property name="icon">
-    <iconset>
+    <iconset resource="../resources/resources.qrc">
      <normaloff>:/resources/exit.png</normaloff>:/resources/exit.png</iconset>
    </property>
    <property name="text">
@@ -267,7 +267,7 @@ QTreeView
   </action>
   <action name="actionOpen_Folder">
    <property name="icon">
-    <iconset>
+    <iconset resource="../resources/resources.qrc">
      <normaloff>:/resources/open_folder.png</normaloff>:/resources/open_folder.png</iconset>
    </property>
    <property name="text">
@@ -275,6 +275,15 @@ QTreeView
    </property>
   </action>
  </widget>
- <resources/>
+ <customwidgets>
+  <customwidget>
+   <class>CodeEditor</class>
+   <extends>QPlainTextEdit</extends>
+   <header>codeeditor.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../resources/resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
