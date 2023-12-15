@@ -52,7 +52,7 @@ SyntaxHighLighter::SyntaxHighLighter(QTextDocument *parent)
 
 void SyntaxHighLighter::highlightBlock(const QString &text)
 {
-    for(const HighLightRule &rule : std::as_const(highlightingRules))
+    for(const HighLightRule &rule : highlightingRules)
     {
         QRegularExpressionMatchIterator matchIterator = rule.pattern.globalMatch(text);
         while(matchIterator.hasNext())
