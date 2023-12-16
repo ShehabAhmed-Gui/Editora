@@ -404,8 +404,9 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
  E:\QtProjects\notebad\Debug\7VUAZTOQ5C/moc_syntaxhighlighter.cpp \
  E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.h \
- E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_fileshandler.cpp \
- E:/QtProjects/notebad/src/files_manager/fileshandler.h \
+ E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_filesmanager.cpp \
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h \
+ E:/QtProjects/notebad/src/files_manager/filesysteminterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QTextStream \
@@ -452,6 +453,8 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
+ E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_filesysteminterface.cpp \
+ E:/QtProjects/notebad/src/files_manager/filesysteminterface.h \
  E:\QtProjects\notebad\Debug\7VGUASVTHG/moc_mainwindow.cpp \
  E:/QtProjects/notebad/src/notebad/mainwindow.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
@@ -462,4 +465,4 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- E:/QtProjects/notebad/src/files_manager/fileshandler.h
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h

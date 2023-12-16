@@ -356,7 +356,8 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- E:/QtProjects/notebad/src/files_manager/fileshandler.h \
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h \
+ E:/QtProjects/notebad/src/files_manager/filesysteminterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \

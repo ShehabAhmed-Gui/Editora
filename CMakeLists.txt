@@ -7,8 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(srcs
         src/main.cpp
-        src/files_manager/fileshandler.cpp
-        src/files_manager/fileshandler.h
+
+        src/files_manager/filesysteminterface.cpp
+        src/files_manager/filesysteminterface.h
+        src/files_manager/filesmanager.cpp
+        src/files_manager/filesmanager.h
 
         src/code_editor/codeeditor.cpp
         src/code_editor/codeeditor.h

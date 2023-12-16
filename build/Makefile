@@ -237,29 +237,53 @@ src/code_editor/syntaxhighlighter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.s
 .PHONY : src/code_editor/syntaxhighlighter.cpp.s
 
-src/files_manager/fileshandler.obj: src/files_manager/fileshandler.cpp.obj
-.PHONY : src/files_manager/fileshandler.obj
+src/files_manager/filesmanager.obj: src/files_manager/filesmanager.cpp.obj
+.PHONY : src/files_manager/filesmanager.obj
 
 # target to build an object file
-src/files_manager/fileshandler.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/fileshandler.cpp.obj
-.PHONY : src/files_manager/fileshandler.cpp.obj
+src/files_manager/filesmanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj
+.PHONY : src/files_manager/filesmanager.cpp.obj
 
-src/files_manager/fileshandler.i: src/files_manager/fileshandler.cpp.i
-.PHONY : src/files_manager/fileshandler.i
+src/files_manager/filesmanager.i: src/files_manager/filesmanager.cpp.i
+.PHONY : src/files_manager/filesmanager.i
 
 # target to preprocess a source file
-src/files_manager/fileshandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/fileshandler.cpp.i
-.PHONY : src/files_manager/fileshandler.cpp.i
+src/files_manager/filesmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.i
+.PHONY : src/files_manager/filesmanager.cpp.i
 
-src/files_manager/fileshandler.s: src/files_manager/fileshandler.cpp.s
-.PHONY : src/files_manager/fileshandler.s
+src/files_manager/filesmanager.s: src/files_manager/filesmanager.cpp.s
+.PHONY : src/files_manager/filesmanager.s
 
 # target to generate assembly for a file
-src/files_manager/fileshandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/fileshandler.cpp.s
-.PHONY : src/files_manager/fileshandler.cpp.s
+src/files_manager/filesmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.s
+.PHONY : src/files_manager/filesmanager.cpp.s
+
+src/files_manager/filesysteminterface.obj: src/files_manager/filesysteminterface.cpp.obj
+.PHONY : src/files_manager/filesysteminterface.obj
+
+# target to build an object file
+src/files_manager/filesysteminterface.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj
+.PHONY : src/files_manager/filesysteminterface.cpp.obj
+
+src/files_manager/filesysteminterface.i: src/files_manager/filesysteminterface.cpp.i
+.PHONY : src/files_manager/filesysteminterface.i
+
+# target to preprocess a source file
+src/files_manager/filesysteminterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.i
+.PHONY : src/files_manager/filesysteminterface.cpp.i
+
+src/files_manager/filesysteminterface.s: src/files_manager/filesysteminterface.cpp.s
+.PHONY : src/files_manager/filesysteminterface.s
+
+# target to generate assembly for a file
+src/files_manager/filesysteminterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.s
+.PHONY : src/files_manager/filesysteminterface.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -331,9 +355,12 @@ help:
 	@echo ... src/code_editor/syntaxhighlighter.obj
 	@echo ... src/code_editor/syntaxhighlighter.i
 	@echo ... src/code_editor/syntaxhighlighter.s
-	@echo ... src/files_manager/fileshandler.obj
-	@echo ... src/files_manager/fileshandler.i
-	@echo ... src/files_manager/fileshandler.s
+	@echo ... src/files_manager/filesmanager.obj
+	@echo ... src/files_manager/filesmanager.i
+	@echo ... src/files_manager/filesmanager.s
+	@echo ... src/files_manager/filesysteminterface.obj
+	@echo ... src/files_manager/filesysteminterface.i
+	@echo ... src/files_manager/filesysteminterface.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

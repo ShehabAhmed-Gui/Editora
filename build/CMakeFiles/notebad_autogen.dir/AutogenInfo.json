@@ -276,9 +276,15 @@
 			null
 		],
 		[
-			"E:/QtProjects/notebad/src/files_manager/fileshandler.h",
+			"E:/QtProjects/notebad/src/files_manager/filesmanager.h",
 			"MU",
-			"FINY5OIUMY/moc_fileshandler.cpp",
+			"FINY5OIUMY/moc_filesmanager.cpp",
+			null
+		],
+		[
+			"E:/QtProjects/notebad/src/files_manager/filesysteminterface.h",
+			"MU",
+			"FINY5OIUMY/moc_filesysteminterface.cpp",
 			null
 		],
 		[
@@ -362,7 +368,12 @@
 			null
 		],
 		[
-			"E:/QtProjects/notebad/src/files_manager/fileshandler.cpp",
+			"E:/QtProjects/notebad/src/files_manager/filesmanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/QtProjects/notebad/src/files_manager/filesysteminterface.cpp",
 			"MU",
 			null
 		],

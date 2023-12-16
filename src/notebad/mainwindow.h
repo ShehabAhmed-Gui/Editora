@@ -4,12 +4,12 @@
 #include <QMainWindow>
 #include <QAction>
 #include <QToolButton>
-#include "fileshandler.h"
+#include "filesmanager.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
-
+using namespace filesInterFace;
 class baseClass : public QMainWindow
 {
     Q_OBJECT
@@ -22,7 +22,6 @@ private:
     Ui::MainWindow *ui;
 public:
     void settingToolBar();
-    fileshandler file;
 private:
     QAction *newAction;
     QAction *open_fileAction;
@@ -30,7 +29,7 @@ private:
     QAction *saveAction;
     QStringList recentFiles;
 
-
+    FilesManager mfileSystem;
 private slots:
     void openFile();
     void saveFile();

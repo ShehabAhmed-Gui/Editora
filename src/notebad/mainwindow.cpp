@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "fileshandler.h"
+#include "filesmanager.h"
 
 baseClass::baseClass(QWidget *parent)
     : QMainWindow(parent)
@@ -57,13 +57,16 @@ void baseClass::settingToolBar()
 
 void baseClass::openFile()
 {
-    ui->textEditor->setPlainText(file.openFile());
+    ui->textEditor->setPlainText(mfileSystem.openFile());
     recentFiles.clear();
-    recentFiles.append(file.info.fileName);
+    recentFiles.append(mfileSystem.info.filePath);
+
+    qDebug() << FilesManager::getFileFullPath();
 }
 
 void baseClass::saveFile()
 {
-    file.saveFile(recentFiles[0], ui->textEditor->toPlainText());
+    mfileSystem.saveFile(recentFiles[0], ui->textEditor->toPlainText());
 }
+
 

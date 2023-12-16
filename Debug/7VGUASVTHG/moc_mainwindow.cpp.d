@@ -392,4 +392,5 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  E:/QtProjects/notebad/src/files_manager/fileshandler.h
+  E:/QtProjects/notebad/src/files_manager/filesmanager.h \
+  E:/QtProjects/notebad/src/files_manager/filesysteminterface.h
