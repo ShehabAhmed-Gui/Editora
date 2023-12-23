@@ -5,14 +5,7 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "E:/QtProjects/notebad",
 	"CMAKE_SOURCE_DIR" : "E:/QtProjects/notebad",
 	"INCLUDE_DIR" : "E:/QtProjects/notebad/Debug/include",
-	"INPUTS" : 
-	[
-		"E:/QtProjects/notebad/resources/exit.png",
-		"E:/QtProjects/notebad/resources/new_file.png",
-		"E:/QtProjects/notebad/resources/save.png",
-		"E:/QtProjects/notebad/resources/open_folder.png",
-		"E:/QtProjects/notebad/resources/open_file.png"
-	],
+	"INPUTS" : [],
 	"LOCK_FILE" : "E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir/AutoRcc_resources_F4FAE6NH3Q_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resources" ],

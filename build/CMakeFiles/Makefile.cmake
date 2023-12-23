@@ -201,7 +201,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.0-rc4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.0-rc4/CMakeRCCompiler.cmake"
   "CMakeFiles/3.26.0-rc4/CMakeSystem.cmake"
-  "E:/QtProjects/notebad/src/resources/resources.qrc"
+  "E:/QtProjects/notebad/resources/resources.qrc"
   )
 
 # The corresponding makefile is:
@@ -213,7 +213,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/notebad_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/notebad_autogen.dir/AutoRcc_resources_F4FAE6NH3Q_Info.json"
+  "CMakeFiles/notebad_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json"
   ".qt/QtDeploySupport.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

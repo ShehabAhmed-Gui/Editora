@@ -2,10 +2,16 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   E:/QtProjects/notebad/Debug/moc_predefs.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QFile \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QModelIndex \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QSortFilterProxyModel \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QTextStream \
   C:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractproxymodel.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qarraydata.h \
@@ -36,6 +42,7 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdir.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qfiledevice.h \
@@ -76,6 +83,7 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qset.h \
@@ -84,6 +92,8 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
@@ -121,11 +131,14 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/QAction \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/QFileSystemModel \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qabstractfileiconprovider.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qbrush.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qcolor.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qfilesystemmodel.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfontmetrics.h \
@@ -147,11 +160,14 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileIconProvider \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfileiconprovider.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -392,5 +408,7 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h \
   E:/QtProjects/notebad/src/files_manager/filesmanager.h \
-  E:/QtProjects/notebad/src/files_manager/filesysteminterface.h
+  E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
+  E:/QtProjects/notebad/src/notebad/customproxy.h

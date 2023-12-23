@@ -1,7 +1,7 @@
 CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj: \
  E:\QtProjects\notebad\src\files_manager\filesmanager.cpp \
  E:\QtProjects\notebad\src\files_manager\filesmanager.h \
- E:\QtProjects\notebad\src\files_manager\filesysteminterface.h \
+ E:\QtProjects\notebad\src\files_manager\filesSystemInterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qobjectdefs.h \
@@ -398,4 +398,10 @@ CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qcursor.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QDirIterator \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h

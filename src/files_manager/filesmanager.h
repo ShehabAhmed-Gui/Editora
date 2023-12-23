@@ -1,36 +1,47 @@
 #ifndef FILESMANAGER_H
 #define FILESMANAGER_H
 
-#include "filesysteminterface.h"
+#include "filesSystemInterface.h"
 #include <QObject>
-
-namespace filesInterFace
+namespace FILEINFO
 {
-    class FilesManager : public FilesSystemInterFace
-    {
-        Q_OBJECT
-    public:
-        explicit FilesManager(QObject *parent = nullptr);
-
-    public slots:
-        QByteArray openFile() override;
-        bool saveFile(const QString &filepath, const QString &contest) override;
-
-    public:
-        struct fileInfo
-        {
-            QString fileName;
-            QString filePath;
-            qint64 fileSize;
-        };
-        fileInfo info;
-
-        static QString getFileRelativePath(){ fileInfo relativePath; return relativePath.fileName; };
-        static QString getFileFullPath() { fileInfo fullPath; return fullPath.filePath; };
-        static qint64 getFileSize() { fileInfo size; return size.fileSize; };
-
-    private:
-        QFileDialog dialog;
+struct FileProperties
+{
+    QString fileName;
+    QString filePath;
+    qint64 fileSize;
+    QList<FileProperties> recentFiles;
 };
+     inline FileProperties fileDetails;
 }
+     using namespace FILEINFO;
+
+class SystemFilesManager : public FilesSystemInterFace
+{
+    Q_OBJECT
+
+public:
+    explicit SystemFilesManager(QObject *parent = nullptr);
+
+public slots:
+    QByteArray openFile(const QString &filePath = "") override;
+    bool saveFile(const QString &filepath, const QString &contest) override;
+
+public:
+    void iterateOverFolders(const QString &folderPath);
+    void setFileProperties(QFile &file);
+
+    static QString getFileRelativePath(){ FileProperties relativePath; return relativePath.fileName; };
+    static QString getFileFullPath() { FileProperties fullPath; return fullPath.filePath; };
+    static qint64 getFileSize() { FileProperties size; return size.fileSize; };
+    // static QList<fileInfo> getRecentFiles() {FileProperties fm; return fm.recentFiles; };
+
+private:
+
+    QFileDialog mdialog;
+    QString mfilePath;
+    QList<FILEINFO::FileProperties> mrecentFiles;
+public slots:
+    QString openFolder(QWidget *parent) override;
+};
 #endif // FILESMANAGER_H

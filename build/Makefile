@@ -141,29 +141,29 @@ notebad_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad_autogen.dir\build.make CMakeFiles/notebad_autogen.dir/build
 .PHONY : notebad_autogen/fast
 
-Debug/F4FAE6NH3Q/qrc_resources.obj: Debug/F4FAE6NH3Q/qrc_resources.cpp.obj
-.PHONY : Debug/F4FAE6NH3Q/qrc_resources.obj
+Debug/3YJK5W5UP7/qrc_resources.obj: Debug/3YJK5W5UP7/qrc_resources.cpp.obj
+.PHONY : Debug/3YJK5W5UP7/qrc_resources.obj
 
 # target to build an object file
-Debug/F4FAE6NH3Q/qrc_resources.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj
-.PHONY : Debug/F4FAE6NH3Q/qrc_resources.cpp.obj
+Debug/3YJK5W5UP7/qrc_resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj
+.PHONY : Debug/3YJK5W5UP7/qrc_resources.cpp.obj
 
-Debug/F4FAE6NH3Q/qrc_resources.i: Debug/F4FAE6NH3Q/qrc_resources.cpp.i
-.PHONY : Debug/F4FAE6NH3Q/qrc_resources.i
+Debug/3YJK5W5UP7/qrc_resources.i: Debug/3YJK5W5UP7/qrc_resources.cpp.i
+.PHONY : Debug/3YJK5W5UP7/qrc_resources.i
 
 # target to preprocess a source file
-Debug/F4FAE6NH3Q/qrc_resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.i
-.PHONY : Debug/F4FAE6NH3Q/qrc_resources.cpp.i
+Debug/3YJK5W5UP7/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.i
+.PHONY : Debug/3YJK5W5UP7/qrc_resources.cpp.i
 
-Debug/F4FAE6NH3Q/qrc_resources.s: Debug/F4FAE6NH3Q/qrc_resources.cpp.s
-.PHONY : Debug/F4FAE6NH3Q/qrc_resources.s
+Debug/3YJK5W5UP7/qrc_resources.s: Debug/3YJK5W5UP7/qrc_resources.cpp.s
+.PHONY : Debug/3YJK5W5UP7/qrc_resources.s
 
 # target to generate assembly for a file
-Debug/F4FAE6NH3Q/qrc_resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.s
-.PHONY : Debug/F4FAE6NH3Q/qrc_resources.cpp.s
+Debug/3YJK5W5UP7/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.s
+.PHONY : Debug/3YJK5W5UP7/qrc_resources.cpp.s
 
 Debug/mocs_compilation.obj: Debug/mocs_compilation.cpp.obj
 .PHONY : Debug/mocs_compilation.obj
@@ -237,6 +237,30 @@ src/code_editor/syntaxhighlighter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.s
 .PHONY : src/code_editor/syntaxhighlighter.cpp.s
 
+src/files_manager/filesSystemInterface.obj: src/files_manager/filesSystemInterface.cpp.obj
+.PHONY : src/files_manager/filesSystemInterface.obj
+
+# target to build an object file
+src/files_manager/filesSystemInterface.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj
+.PHONY : src/files_manager/filesSystemInterface.cpp.obj
+
+src/files_manager/filesSystemInterface.i: src/files_manager/filesSystemInterface.cpp.i
+.PHONY : src/files_manager/filesSystemInterface.i
+
+# target to preprocess a source file
+src/files_manager/filesSystemInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.i
+.PHONY : src/files_manager/filesSystemInterface.cpp.i
+
+src/files_manager/filesSystemInterface.s: src/files_manager/filesSystemInterface.cpp.s
+.PHONY : src/files_manager/filesSystemInterface.s
+
+# target to generate assembly for a file
+src/files_manager/filesSystemInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.s
+.PHONY : src/files_manager/filesSystemInterface.cpp.s
+
 src/files_manager/filesmanager.obj: src/files_manager/filesmanager.cpp.obj
 .PHONY : src/files_manager/filesmanager.obj
 
@@ -261,30 +285,6 @@ src/files_manager/filesmanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.s
 .PHONY : src/files_manager/filesmanager.cpp.s
 
-src/files_manager/filesysteminterface.obj: src/files_manager/filesysteminterface.cpp.obj
-.PHONY : src/files_manager/filesysteminterface.obj
-
-# target to build an object file
-src/files_manager/filesysteminterface.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj
-.PHONY : src/files_manager/filesysteminterface.cpp.obj
-
-src/files_manager/filesysteminterface.i: src/files_manager/filesysteminterface.cpp.i
-.PHONY : src/files_manager/filesysteminterface.i
-
-# target to preprocess a source file
-src/files_manager/filesysteminterface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.i
-.PHONY : src/files_manager/filesysteminterface.cpp.i
-
-src/files_manager/filesysteminterface.s: src/files_manager/filesysteminterface.cpp.s
-.PHONY : src/files_manager/filesysteminterface.s
-
-# target to generate assembly for a file
-src/files_manager/filesysteminterface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.s
-.PHONY : src/files_manager/filesysteminterface.cpp.s
-
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -308,6 +308,54 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/notebad/customfilesystemmodel.obj: src/notebad/customfilesystemmodel.cpp.obj
+.PHONY : src/notebad/customfilesystemmodel.obj
+
+# target to build an object file
+src/notebad/customfilesystemmodel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj
+.PHONY : src/notebad/customfilesystemmodel.cpp.obj
+
+src/notebad/customfilesystemmodel.i: src/notebad/customfilesystemmodel.cpp.i
+.PHONY : src/notebad/customfilesystemmodel.i
+
+# target to preprocess a source file
+src/notebad/customfilesystemmodel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.i
+.PHONY : src/notebad/customfilesystemmodel.cpp.i
+
+src/notebad/customfilesystemmodel.s: src/notebad/customfilesystemmodel.cpp.s
+.PHONY : src/notebad/customfilesystemmodel.s
+
+# target to generate assembly for a file
+src/notebad/customfilesystemmodel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.s
+.PHONY : src/notebad/customfilesystemmodel.cpp.s
+
+src/notebad/customproxy.obj: src/notebad/customproxy.cpp.obj
+.PHONY : src/notebad/customproxy.obj
+
+# target to build an object file
+src/notebad/customproxy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj
+.PHONY : src/notebad/customproxy.cpp.obj
+
+src/notebad/customproxy.i: src/notebad/customproxy.cpp.i
+.PHONY : src/notebad/customproxy.i
+
+# target to preprocess a source file
+src/notebad/customproxy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.i
+.PHONY : src/notebad/customproxy.cpp.i
+
+src/notebad/customproxy.s: src/notebad/customproxy.cpp.s
+.PHONY : src/notebad/customproxy.s
+
+# target to generate assembly for a file
+src/notebad/customproxy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.s
+.PHONY : src/notebad/customproxy.cpp.s
 
 src/notebad/mainwindow.obj: src/notebad/mainwindow.cpp.obj
 .PHONY : src/notebad/mainwindow.obj
@@ -343,9 +391,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... notebad_autogen
 	@echo ... notebad
-	@echo ... Debug/F4FAE6NH3Q/qrc_resources.obj
-	@echo ... Debug/F4FAE6NH3Q/qrc_resources.i
-	@echo ... Debug/F4FAE6NH3Q/qrc_resources.s
+	@echo ... Debug/3YJK5W5UP7/qrc_resources.obj
+	@echo ... Debug/3YJK5W5UP7/qrc_resources.i
+	@echo ... Debug/3YJK5W5UP7/qrc_resources.s
 	@echo ... Debug/mocs_compilation.obj
 	@echo ... Debug/mocs_compilation.i
 	@echo ... Debug/mocs_compilation.s
@@ -355,15 +403,21 @@ help:
 	@echo ... src/code_editor/syntaxhighlighter.obj
 	@echo ... src/code_editor/syntaxhighlighter.i
 	@echo ... src/code_editor/syntaxhighlighter.s
+	@echo ... src/files_manager/filesSystemInterface.obj
+	@echo ... src/files_manager/filesSystemInterface.i
+	@echo ... src/files_manager/filesSystemInterface.s
 	@echo ... src/files_manager/filesmanager.obj
 	@echo ... src/files_manager/filesmanager.i
 	@echo ... src/files_manager/filesmanager.s
-	@echo ... src/files_manager/filesysteminterface.obj
-	@echo ... src/files_manager/filesysteminterface.i
-	@echo ... src/files_manager/filesysteminterface.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/notebad/customfilesystemmodel.obj
+	@echo ... src/notebad/customfilesystemmodel.i
+	@echo ... src/notebad/customfilesystemmodel.s
+	@echo ... src/notebad/customproxy.obj
+	@echo ... src/notebad/customproxy.i
+	@echo ... src/notebad/customproxy.s
 	@echo ... src/notebad/mainwindow.obj
 	@echo ... src/notebad/mainwindow.i
 	@echo ... src/notebad/mainwindow.s

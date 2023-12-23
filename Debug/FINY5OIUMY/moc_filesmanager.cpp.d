@@ -2,7 +2,9 @@ E:/QtProjects/notebad/Debug/FINY5OIUMY/moc_filesmanager.cpp: E:/QtProjects/noteb
   E:/QtProjects/notebad/Debug/moc_predefs.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QFile \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QTextStream \
   C:/Qt/6.5.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -84,6 +86,7 @@ E:/QtProjects/notebad/Debug/FINY5OIUMY/moc_filesmanager.cpp: E:/QtProjects/noteb
   C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qsize.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qstring.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h \
@@ -385,4 +388,4 @@ E:/QtProjects/notebad/Debug/FINY5OIUMY/moc_filesmanager.cpp: E:/QtProjects/noteb
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  E:/QtProjects/notebad/src/files_manager/filesysteminterface.h
+  E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h

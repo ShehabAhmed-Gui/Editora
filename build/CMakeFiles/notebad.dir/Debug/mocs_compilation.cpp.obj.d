@@ -404,9 +404,8 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qtmochelpers.h \
  E:\QtProjects\notebad\Debug\7VUAZTOQ5C/moc_syntaxhighlighter.cpp \
  E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.h \
- E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_filesmanager.cpp \
- E:/QtProjects/notebad/src/files_manager/filesmanager.h \
- E:/QtProjects/notebad/src/files_manager/filesysteminterface.h \
+ E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_filesSystemInterface.cpp \
+ E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QTextStream \
@@ -453,8 +452,30 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
- E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_filesysteminterface.cpp \
- E:/QtProjects/notebad/src/files_manager/filesysteminterface.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
+ E:\QtProjects\notebad\Debug\FINY5OIUMY/moc_filesmanager.cpp \
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h \
+ E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h \
+ E:\QtProjects\notebad\Debug\7VGUASVTHG/moc_customfilesystemmodel.cpp \
+ E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFileSystemModel \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfilesystemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileIconProvider \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfileiconprovider.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qabstractfileiconprovider.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QModelIndex \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ E:\QtProjects\notebad\Debug\7VGUASVTHG/moc_customproxy.cpp \
+ E:/QtProjects/notebad/src/notebad/customproxy.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QSortFilterProxyModel \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractproxymodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
  E:\QtProjects\notebad\Debug\7VGUASVTHG/moc_mainwindow.cpp \
  E:/QtProjects/notebad/src/notebad/mainwindow.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
@@ -465,4 +486,6 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- E:/QtProjects/notebad/src/files_manager/filesmanager.h
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h \
+ E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
+ E:/QtProjects/notebad/src/notebad/customproxy.h

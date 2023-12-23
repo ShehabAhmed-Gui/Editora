@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(srcs
         src/main.cpp
 
-        src/files_manager/filesysteminterface.cpp
-        src/files_manager/filesysteminterface.h
+        src/files_manager/filesSystemInterface.cpp
+        src/files_manager/filesSystemInterface.h
         src/files_manager/filesmanager.cpp
         src/files_manager/filesmanager.h
 
@@ -23,11 +23,17 @@ set(srcs
 
         src/notebad/mainwindow.cpp
         src/notebad/mainwindow.h
+        src/notebad/customfilesystemmodel.h
+        src/notebad/customfilesystemmodel.cpp
         src/notebad/mainwindow.ui
 
-        src/resources/resources.qrc
+
 )
-add_executable(notebad ${srcs})
+add_executable(notebad ${srcs}
+    src/notebad/customproxy.h src/notebad/customproxy.cpp
+    resources/resources.qrc
+
+)
 
 set_target_properties(notebad PROPERTIES
     AUTORCC ON
@@ -47,10 +53,12 @@ target_include_directories(notebad PUBLIC
 
 find_package(Qt6 REQUIRED COMPONENTS
     Widgets
+    Core
     Gui
 )
 
 target_link_libraries(notebad PRIVATE
     Qt6::Widgets
+    Qt6::Core
     Qt6::Gui
 )

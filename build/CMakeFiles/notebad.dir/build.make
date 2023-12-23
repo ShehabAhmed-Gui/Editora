@@ -68,16 +68,20 @@ include CMakeFiles/notebad.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/notebad.dir/flags.make
 
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: E:/QtProjects/notebad/src/resources/resources.qrc
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: CMakeFiles/notebad_autogen.dir/AutoRcc_resources_F4FAE6NH3Q_Info.json
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: E:/QtProjects/notebad/resources/exit.png
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: E:/QtProjects/notebad/resources/new_file.png
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: E:/QtProjects/notebad/resources/save.png
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: E:/QtProjects/notebad/resources/open_folder.png
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: E:/QtProjects/notebad/resources/open_file.png
-E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp: C:/Qt/6.5.0/mingw_64/./bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for src/resources/resources.qrc"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir/AutoRcc_resources_F4FAE6NH3Q_Info.json Debug
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/resources.qrc
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: CMakeFiles/notebad_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_branch_end.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/exit.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/new_file.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_vline.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/save.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/open_folder.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_branch_open.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/open_file.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_branch_closed.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: C:/Qt/6.5.0/mingw_64/./bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources/resources.qrc"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json Debug
 
 CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: CMakeFiles/notebad.dir/flags.make
 CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
@@ -109,20 +113,20 @@ CMakeFiles/notebad.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/main.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\main.cpp -o CMakeFiles\notebad.dir\src\main.cpp.s
 
-CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj: CMakeFiles/notebad.dir/flags.make
-CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
-CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj: E:/QtProjects/notebad/src/files_manager/filesysteminterface.cpp
-CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj -MF CMakeFiles\notebad.dir\src\files_manager\filesysteminterface.cpp.obj.d -o CMakeFiles\notebad.dir\src\files_manager\filesysteminterface.cpp.obj -c E:\QtProjects\notebad\src\files_manager\filesysteminterface.cpp
+CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj: CMakeFiles/notebad.dir/flags.make
+CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
+CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj: E:/QtProjects/notebad/src/files_manager/filesSystemInterface.cpp
+CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj -MF CMakeFiles\notebad.dir\src\files_manager\filesSystemInterface.cpp.obj.d -o CMakeFiles\notebad.dir\src\files_manager\filesSystemInterface.cpp.obj -c E:\QtProjects\notebad\src\files_manager\filesSystemInterface.cpp
 
-CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.i"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\src\files_manager\filesysteminterface.cpp > CMakeFiles\notebad.dir\src\files_manager\filesysteminterface.cpp.i
+CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\src\files_manager\filesSystemInterface.cpp > CMakeFiles\notebad.dir\src\files_manager\filesSystemInterface.cpp.i
 
-CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.s"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\files_manager\filesysteminterface.cpp -o CMakeFiles\notebad.dir\src\files_manager\filesysteminterface.cpp.s
+CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\files_manager\filesSystemInterface.cpp -o CMakeFiles\notebad.dir\src\files_manager\filesSystemInterface.cpp.s
 
 CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj: CMakeFiles/notebad.dir/flags.make
 CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
@@ -184,43 +188,77 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\notebad\mainwindow.cpp -o CMakeFiles\notebad.dir\src\notebad\mainwindow.cpp.s
 
-CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/flags.make
-CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
-CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj: E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp
-CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj -MF CMakeFiles\notebad.dir\Debug\F4FAE6NH3Q\qrc_resources.cpp.obj.d -o CMakeFiles\notebad.dir\Debug\F4FAE6NH3Q\qrc_resources.cpp.obj -c E:\QtProjects\notebad\Debug\F4FAE6NH3Q\qrc_resources.cpp
+CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj: CMakeFiles/notebad.dir/flags.make
+CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
+CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj: E:/QtProjects/notebad/src/notebad/customfilesystemmodel.cpp
+CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj -MF CMakeFiles\notebad.dir\src\notebad\customfilesystemmodel.cpp.obj.d -o CMakeFiles\notebad.dir\src\notebad\customfilesystemmodel.cpp.obj -c E:\QtProjects\notebad\src\notebad\customfilesystemmodel.cpp
 
-CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.i"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\Debug\F4FAE6NH3Q\qrc_resources.cpp > CMakeFiles\notebad.dir\Debug\F4FAE6NH3Q\qrc_resources.cpp.i
+CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\src\notebad\customfilesystemmodel.cpp > CMakeFiles\notebad.dir\src\notebad\customfilesystemmodel.cpp.i
 
-CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.s"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\Debug\F4FAE6NH3Q\qrc_resources.cpp -o CMakeFiles\notebad.dir\Debug\F4FAE6NH3Q\qrc_resources.cpp.s
+CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\notebad\customfilesystemmodel.cpp -o CMakeFiles\notebad.dir\src\notebad\customfilesystemmodel.cpp.s
+
+CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: CMakeFiles/notebad.dir/flags.make
+CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
+CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: E:/QtProjects/notebad/src/notebad/customproxy.cpp
+CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj -MF CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.obj.d -o CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.obj -c E:\QtProjects\notebad\src\notebad\customproxy.cpp
+
+CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\src\notebad\customproxy.cpp > CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.i
+
+CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\notebad\customproxy.cpp -o CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.s
+
+CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/flags.make
+CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
+CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp
+CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj -MF CMakeFiles\notebad.dir\Debug\3YJK5W5UP7\qrc_resources.cpp.obj.d -o CMakeFiles\notebad.dir\Debug\3YJK5W5UP7\qrc_resources.cpp.obj -c E:\QtProjects\notebad\Debug\3YJK5W5UP7\qrc_resources.cpp
+
+CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\Debug\3YJK5W5UP7\qrc_resources.cpp > CMakeFiles\notebad.dir\Debug\3YJK5W5UP7\qrc_resources.cpp.i
+
+CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\Debug\3YJK5W5UP7\qrc_resources.cpp -o CMakeFiles\notebad.dir\Debug\3YJK5W5UP7\qrc_resources.cpp.s
 
 # Object files for target notebad
 notebad_OBJECTS = \
 "CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj" \
 "CMakeFiles/notebad.dir/src/main.cpp.obj" \
-"CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj" \
+"CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj" \
 "CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj" \
 "CMakeFiles/notebad.dir/src/code_editor/codeeditor.cpp.obj" \
 "CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj" \
 "CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj" \
-"CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj"
+"CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj" \
+"CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj" \
+"CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj"
 
 # External object files for target notebad
 notebad_EXTERNAL_OBJECTS =
 
 notebad.exe: CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/main.cpp.obj
-notebad.exe: CMakeFiles/notebad.dir/src/files_manager/filesysteminterface.cpp.obj
+notebad.exe: CMakeFiles/notebad.dir/src/files_manager/filesSystemInterface.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/files_manager/filesmanager.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/code_editor/codeeditor.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj
-notebad.exe: CMakeFiles/notebad.dir/Debug/F4FAE6NH3Q/qrc_resources.cpp.obj
+notebad.exe: CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj
+notebad.exe: CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj
+notebad.exe: CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/build.make
 notebad.exe: C:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a
 notebad.exe: C:/Qt/6.5.0/mingw_64/lib/libQt6Gui.a
@@ -228,7 +266,7 @@ notebad.exe: C:/Qt/6.5.0/mingw_64/lib/libQt6Core.a
 notebad.exe: CMakeFiles/notebad.dir/linkLibs.rsp
 notebad.exe: CMakeFiles/notebad.dir/objects1.rsp
 notebad.exe: CMakeFiles/notebad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable notebad.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable notebad.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\notebad.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,7 +277,7 @@ CMakeFiles/notebad.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\notebad.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/notebad.dir/clean
 
-CMakeFiles/notebad.dir/depend: E:/QtProjects/notebad/Debug/F4FAE6NH3Q/qrc_resources.cpp
+CMakeFiles/notebad.dir/depend: E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\QtProjects\notebad E:\QtProjects\notebad E:\QtProjects\notebad\build E:\QtProjects\notebad\build E:\QtProjects\notebad\build\CMakeFiles\notebad.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/notebad.dir/depend
 

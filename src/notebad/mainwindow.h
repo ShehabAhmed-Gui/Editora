@@ -5,11 +5,14 @@
 #include <QAction>
 #include <QToolButton>
 #include "filesmanager.h"
+#include <QFileSystemModel>
+#include "customfilesystemmodel.h"
+#include "customproxy.h"
+// #include "folderstructure.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
-using namespace filesInterFace;
 class baseClass : public QMainWindow
 {
     Q_OBJECT
@@ -20,18 +23,30 @@ public:
 
 private:
     Ui::MainWindow *ui;
-public:
+private:
     void settingToolBar();
+    void setSaveActionTex();
 private:
     QAction *newAction;
     QAction *open_fileAction;
     QAction *open_folderAction;
     QAction *saveAction;
+
+    //File_actions
+    QAction *openFileAction;
+    QAction *saveFileAction;
+    QAction *openFolderAction;
     QStringList recentFiles;
 
-    FilesManager mfileSystem;
+    SystemFilesManager msysfilesmanager;
+    customFileSystemModel *model;
+    CustomProxy *proxy;
+    // FolderStructure folderModel;
 private slots:
     void openFile();
     void saveFile();
+
+    void openFolder();
+    void itemDoubleClicked(const QModelIndex &index);
 };
 #endif // MAINWINDOW_H

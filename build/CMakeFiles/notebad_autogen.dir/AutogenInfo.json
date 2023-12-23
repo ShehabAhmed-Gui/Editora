@@ -250,7 +250,7 @@
 		"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
-		"E:/QtProjects/notebad/src/resources/resources.qrc"
+		"E:/QtProjects/notebad/resources/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/QtProjects/notebad",
 	"DEP_FILE" : "",
@@ -276,15 +276,27 @@
 			null
 		],
 		[
+			"E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h",
+			"MU",
+			"FINY5OIUMY/moc_filesSystemInterface.cpp",
+			null
+		],
+		[
 			"E:/QtProjects/notebad/src/files_manager/filesmanager.h",
 			"MU",
 			"FINY5OIUMY/moc_filesmanager.cpp",
 			null
 		],
 		[
-			"E:/QtProjects/notebad/src/files_manager/filesysteminterface.h",
+			"E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h",
 			"MU",
-			"FINY5OIUMY/moc_filesysteminterface.cpp",
+			"7VGUASVTHG/moc_customfilesystemmodel.cpp",
+			null
+		],
+		[
+			"E:/QtProjects/notebad/src/notebad/customproxy.h",
+			"MU",
+			"7VGUASVTHG/moc_customproxy.cpp",
 			null
 		],
 		[
@@ -368,16 +380,22 @@
 			null
 		],
 		[
-			"E:/QtProjects/notebad/src/files_manager/filesmanager.cpp",
+			"E:/QtProjects/notebad/src/files_manager/filesSystemInterface.cpp",
 			"MU",
 			null
 		],
 		[
-			"E:/QtProjects/notebad/src/files_manager/filesysteminterface.cpp",
+			"E:/QtProjects/notebad/src/files_manager/filesmanager.cpp",
 			"MU",
 			null
 		],
 		[ "E:/QtProjects/notebad/src/main.cpp", "MU", null ],
+		[
+			"E:/QtProjects/notebad/src/notebad/customfilesystemmodel.cpp",
+			"MU",
+			null
+		],
+		[ "E:/QtProjects/notebad/src/notebad/customproxy.cpp", "MU", null ],
 		[ "E:/QtProjects/notebad/src/notebad/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

@@ -357,7 +357,7 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
  E:/QtProjects/notebad/src/files_manager/filesmanager.h \
- E:/QtProjects/notebad/src/files_manager/filesysteminterface.h \
+ E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
@@ -408,6 +408,27 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFileSystemModel \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfilesystemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
+ E:\QtProjects\notebad\src\notebad\customfilesystemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileIconProvider \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfileiconprovider.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qabstractfileiconprovider.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QModelIndex \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ E:\QtProjects\notebad\src\notebad\customproxy.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QSortFilterProxyModel \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractproxymodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
  E:/QtProjects/notebad/Debug/include/ui_mainwindow.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qvariant.h \
@@ -433,13 +454,11 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractitemview.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qstyleoption.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qvalidator.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qslider.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractslider.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qstyle.h \
@@ -457,7 +476,6 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtreeview.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  E:/QtProjects/notebad/src/code_editor/codeeditor.h \
  E:/QtProjects/notebad/src/code_editor/syntaxhighlighter.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QRegularExpression \
@@ -478,7 +496,6 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qinputdevice.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qscreen.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QRect \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qrect.h \
@@ -500,6 +517,5 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qpainter.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QTextBlock \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextobject.h

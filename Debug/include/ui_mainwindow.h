@@ -42,7 +42,7 @@ public:
     QHBoxLayout *horizontalLayout_2;
     QWidget *folder_tree_container;
     QVBoxLayout *verticalLayout;
-    QTreeView *folder_tree_2;
+    QTreeView *treeView;
     CodeEditor *textEditor;
     QMenuBar *menubar;
     QMenu *menuFile;
@@ -59,10 +59,15 @@ public:
 "	color: white;\n"
 "	font: 11pt \"Segoe UI\";\n"
 "}\n"
+"\n"
 "QToolTip\n"
 "{\n"
-"\n"
+"	background-color: black;\n"
+"	color: red;\n"
+"	\n"
+"	font: 8pt \"Segoe UI\";\n"
 "}\n"
+"\n"
 "QMenuBar\n"
 "{\n"
 "	font: 11pt \"Segoe UI\";\n"
@@ -101,6 +106,7 @@ public:
 "	background-color: black;\n"
 "	spacing: 18px;\n"
 "}\n"
+"\n"
 "QToolButton\n"
 "{\n"
 "	background-color: transparent;\n"
@@ -110,27 +116,52 @@ public:
 "QToolButton::pressed\n"
 "{\n"
 "	border: none;\n"
-"	border-bottom: 1px solid white;\n"
+"	"
+                        "border-bottom: 1px solid white;\n"
+"}\n"
+"\n"
+"QScrollBar:vertical\n"
+"{\n"
+"	width: 13px;\n"
+"}\n"
+"QScrollBar::down-button\n"
+"{\n"
+"	background: rgb(50, 50, 50);\n"
+"	border: 4px solid red;\n"
+"}\n"
+"QScrollBar::down-arrow::vertical, QScrollBar::up-arrow:vertical\n"
+"{\n"
+"	border-image: url(:/tree_branch_open);\n"
+"}\n"
+"QScrollBar::handle\n"
+"{\n"
+"	border: 1px solid gray;\n"
+"	border-radius: 4px;\n"
+"	background: rgb(79, 80, 80);\n"
+"}\n"
+"QScrollBar::sub-page, QScrollBar::add-page\n"
+"{\n"
+"	background: none;\n"
 "}"));
         actionNew = new QAction(MainWindow);
         actionNew->setObjectName("actionNew");
         QIcon icon;
-        icon.addFile(QString::fromUtf8(":/resources/new_file.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/new_file.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionNew->setIcon(icon);
         actionOpen = new QAction(MainWindow);
         actionOpen->setObjectName("actionOpen");
         QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/resources/open_file.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/open_file.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionOpen->setIcon(icon1);
         actionSave = new QAction(MainWindow);
         actionSave->setObjectName("actionSave");
         QIcon icon2;
-        icon2.addFile(QString::fromUtf8(":/resources/save.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/save.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSave->setIcon(icon2);
         actionExit = new QAction(MainWindow);
         actionExit->setObjectName("actionExit");
         QIcon icon3;
-        icon3.addFile(QString::fromUtf8(":/resources/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExit->setIcon(icon3);
         actionPaste = new QAction(MainWindow);
         actionPaste->setObjectName("actionPaste");
@@ -141,7 +172,7 @@ public:
         actionOpen_Folder = new QAction(MainWindow);
         actionOpen_Folder->setObjectName("actionOpen_Folder");
         QIcon icon4;
-        icon4.addFile(QString::fromUtf8(":/resources/open_folder.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/open_folder.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionOpen_Folder->setIcon(icon4);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
@@ -171,25 +202,62 @@ public:
 "{\n"
 "	background-color: rgb(34, 34, 34);\n"
 "}\n"
-"QTreeView\n"
-"{\n"
-"	background-color: black;\n"
-"}"));
+""));
         horizontalLayout_2 = new QHBoxLayout(Body);
         horizontalLayout_2->setObjectName("horizontalLayout_2");
         folder_tree_container = new QWidget(Body);
         folder_tree_container->setObjectName("folder_tree_container");
-        verticalLayout = new QVBoxLayout(folder_tree_container);
-        verticalLayout->setObjectName("verticalLayout");
-        folder_tree_2 = new QTreeView(folder_tree_container);
-        folder_tree_2->setObjectName("folder_tree_2");
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(folder_tree_2->sizePolicy().hasHeightForWidth());
-        folder_tree_2->setSizePolicy(sizePolicy);
+        sizePolicy.setHeightForWidth(folder_tree_container->sizePolicy().hasHeightForWidth());
+        folder_tree_container->setSizePolicy(sizePolicy);
+        folder_tree_container->setMinimumSize(QSize(350, 0));
+        folder_tree_container->setStyleSheet(QString::fromUtf8("QTreeView\n"
+"{\n"
+"	background: black;\n"
+"	\n"
+"	font: 10pt \"Segoe UI\";\n"
+"}\n"
+"QTreeView::branch:has-siblings:!adjoins-item {\n"
+"    border-image: url(:/tree_vline.png) 0;\n"
+"}\n"
+"\n"
+"QTreeView::branch:has-siblings:adjoins-item {\n"
+"    border-image: url(:/tree_branch_more.png) 0;\n"
+"}\n"
+"\n"
+"QTreeView::branch:!has-children:!has-siblings:adjoins-item {\n"
+"    border-image: url(:/tree_branch_end.png) 0;\n"
+"}\n"
+"\n"
+"QTreeView::branch:has-children:!has-siblings:closed,\n"
+"QTreeView::branch:closed:has-children:has-siblings {\n"
+"        border-image: none;\n"
+"        image: url(:/tree_branch_closed.png);\n"
+"}\n"
+"\n"
+"QTreeView::branch:open:has-children:!has-siblings,\n"
+"QTreeView::branch:open:has-children:has-siblings  {\n"
+"        border-image: none;\n"
+"        image: url(:/tree_branch_open.png);\n"
+"}\n"
+"\n"
+""));
+        verticalLayout = new QVBoxLayout(folder_tree_container);
+        verticalLayout->setSpacing(0);
+        verticalLayout->setObjectName("verticalLayout");
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        treeView = new QTreeView(folder_tree_container);
+        treeView->setObjectName("treeView");
+        QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Expanding);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(treeView->sizePolicy().hasHeightForWidth());
+        treeView->setSizePolicy(sizePolicy1);
+        treeView->setMinimumSize(QSize(0, 0));
 
-        verticalLayout->addWidget(folder_tree_2);
+        verticalLayout->addWidget(treeView);
 
 
         horizontalLayout_2->addWidget(folder_tree_container);
@@ -216,11 +284,11 @@ public:
         MainWindow->setMenuBar(menubar);
         toolBar = new QToolBar(MainWindow);
         toolBar->setObjectName("toolBar");
-        QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(toolBar->sizePolicy().hasHeightForWidth());
-        toolBar->setSizePolicy(sizePolicy1);
+        QSizePolicy sizePolicy2(QSizePolicy::Expanding, QSizePolicy::Expanding);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(toolBar->sizePolicy().hasHeightForWidth());
+        toolBar->setSizePolicy(sizePolicy2);
         toolBar->setMinimumSize(QSize(0, 40));
         toolBar->setMaximumSize(QSize(16777215, 16777215));
         MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);

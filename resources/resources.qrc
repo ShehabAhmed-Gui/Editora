@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>exit.png</file>
+        <file>new_file.png</file>
+        <file>open_file.png</file>
+        <file>open_folder.png</file>
+        <file>save.png</file>
+        <file>tree_branch_closed.png</file>
+        <file>tree_branch_open.png</file>
+        <file>tree_vline.png</file>
+        <file>tree_branch_end.png</file>
+    </qresource>
+</RCC>

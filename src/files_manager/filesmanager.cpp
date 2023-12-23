@@ -1,31 +1,44 @@
 #include "filesmanager.h"
-using namespace filesInterFace;
-
-FilesManager::FilesManager(QObject *parent)
-    : FilesSystemInterFace(parent){}
+#include <QDirIterator>
+SystemFilesManager::SystemFilesManager(QObject *parent)
+    : FilesSystemInterFace(parent), mfilePath(""){}
 FilesSystemInterFace::~FilesSystemInterFace(){}
 
-QByteArray FilesManager::openFile()
+QByteArray SystemFilesManager::openFile(const QString &filePath)
 {
-    QString filePath = dialog.getOpenFileName(nullptr, "select file or more to open", "", "All Files *.*");
     if(!filePath.isEmpty())
     {
         QFile file(filePath);
-        info.fileName = file.fileName();
-        info.filePath = filePath;
-        info.fileSize = file.size();
+        setFileProperties(file);
+
         if(file.open(QIODevice::ReadOnly | QIODevice::Text))
         {
             while(!file.atEnd())
                 return file.readAll();
             file.close();
         }
-        else qDebug("faileed");
+        qDebug () << file.errorString();
     }
+
+    else if(filePath.isEmpty())
+    {
+        mfilePath = mdialog.getOpenFileName(nullptr, "select file or more to open", "", "All Files *.*");
+        QFile file(mfilePath);
+        setFileProperties(file);
+
+        if(file.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            while(!file.atEnd())
+                return file.readAll();
+            file.close();
+        }
+        qDebug () << file.errorString();
+    }
+
     return QByteArray();
 }
 
-bool FilesManager::saveFile(const QString &filepath, const QString &contest)
+bool SystemFilesManager::saveFile(const QString &filepath, const QString &contest)
 {
     QFile file_(filepath);
     if(file_.open(QIODevice::WriteOnly | QIODevice::Append))
@@ -39,4 +52,43 @@ bool FilesManager::saveFile(const QString &filepath, const QString &contest)
     }
     qDebug() << file_.errorString();
     return false;
+}
+
+void SystemFilesManager::iterateOverFolders(const QString &folderPath)
+{
+    QDirIterator it(folderPath, QDir::Dirs | QDir::NoDotAndDotDot, QDirIterator::Subdirectories);
+    while (it.hasNext())
+        qDebug() << it.next();
+}
+
+void SystemFilesManager::setFileProperties(QFile &file)
+{
+    QFileInfo fileProp(file);
+
+    fileDetails.fileName = fileProp.fileName();
+    fileDetails.fileSize = fileProp.size();
+    fileDetails.filePath = fileProp.absoluteFilePath();
+
+    fileDetails.recentFiles.append(fileDetails);
+}
+
+QString SystemFilesManager::openFolder(QWidget *parent = nullptr)
+{
+    QString isSelected = mdialog.getExistingDirectory(parent, "open Directory", "/home", QFileDialog::ShowDirsOnly
+                                                                                            | QFileDialog::DontResolveSymlinks);
+    // QList<QString> folderStructure;
+    if(!isSelected.isEmpty())
+    {
+        return isSelected;
+        // QFileInfo fi (isSelected);
+        // auto list = QDir (fi.absoluteFilePath()).entryInfoList(QDir::Filter::NoDotAndDotDot | QDir::AllEntries);
+        // for(const QFileInfo &info : list)
+        // {
+        //     folderStructure.append(info.absoluteFilePath());
+        // }
+        // return folderStructure;
+    }
+    return "";
+    // return QList<QString>();
+    // iterateOverFolders(isSelected);
 }
