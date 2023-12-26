@@ -353,18 +353,17 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QAction \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFontDatabase \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfontdatabase.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFont \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- E:/QtProjects/notebad/src/files_manager/filesmanager.h \
- E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QTextStream \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QFile \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFileSystemModel \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfilesystemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qdir.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qfiledevice.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
@@ -398,25 +397,14 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qdir.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
- C:/Qt/6.5.0/mingw_64/include/QtGui/QFileSystemModel \
- C:/Qt/6.5.0/mingw_64/include/QtGui/qfilesystemmodel.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
  E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileIconProvider \
@@ -424,11 +412,22 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qabstractfileiconprovider.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QModelIndex \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
- E:/QtProjects/notebad/src/notebad/customproxy.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QSortFilterProxyModel \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qsortfilterproxymodel.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractproxymodel.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h \
+ E:/QtProjects/notebad/src/files_manager/filesSystemInterface.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QIODevice \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QTextStream \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QFile \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/QStack \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qstack.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcoreapplication.h \

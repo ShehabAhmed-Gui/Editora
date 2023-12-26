@@ -470,12 +470,6 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qabstractfileiconprovider.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QModelIndex \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractitemmodel.h \
- E:\QtProjects\notebad\Debug\7VGUASVTHG/moc_customproxy.cpp \
- E:/QtProjects/notebad/src/notebad/customproxy.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/QSortFilterProxyModel \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qsortfilterproxymodel.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qabstractproxymodel.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h \
  E:\QtProjects\notebad\Debug\7VGUASVTHG/moc_mainwindow.cpp \
  E:/QtProjects/notebad/src/notebad/mainwindow.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
@@ -483,9 +477,12 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.5.0/mingw_64/include/QtGui/QAction \
  C:/Qt/6.5.0/mingw_64/include/QtGui/qaction.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFontDatabase \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfontdatabase.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/QFont \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
- E:/QtProjects/notebad/src/files_manager/filesmanager.h \
  E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
- E:/QtProjects/notebad/src/notebad/customproxy.h
+ E:/QtProjects/notebad/src/files_manager/filesmanager.h

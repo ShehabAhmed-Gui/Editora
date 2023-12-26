@@ -2,13 +2,16 @@
 #include "./ui_mainwindow.h"
 #include "filesmanager.h"
 #include "customfilesystemmodel.h"
+#include <QFontDatabase>
+#include <QFont>
 
 baseClass::baseClass(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
+    , model(new customFileSystemModel(this))
 {
     ui->setupUi(this);
-    baseClass::setWindowTitle("notebad ++ implementation");
+    baseClass::setWindowTitle("notebad++ implementation");
 
     /*initiliaze the objects*/
     openFileAction = ui->actionOpen;
@@ -34,6 +37,7 @@ baseClass::baseClass(QWidget *parent)
 
     settingToolBar();
     setSaveActionTex();
+    qDebug() << this->font();
 }
 
 baseClass::~baseClass()
@@ -53,10 +57,11 @@ void baseClass::settingToolBar()
 
     connect(open_folderAction, &QAction::triggered, this, &baseClass::openFolder);
 
-    newAction->setIcon(QPixmap(":/new_file.png"));
-    open_fileAction->setIcon(QIcon(":/open_file.png"));
-    open_folderAction->setIcon(QIcon(":/open_folder.png"));
-    saveAction->setIcon(QIcon(":/save.png"));
+    newAction->setIcon(QPixmap(":/icons/new_file.png"));
+    open_fileAction->setIcon(QIcon(":/icons/open_file.png"));
+    open_folderAction->setIcon(QIcon(":/icons/open_folder.png"));
+    saveAction->setIcon(QIcon(":/icons/save.png"));
+
 
     ui->toolBar->setMovable(false);
     ui->toolBar->setIconSize(QSize(18, 18));
@@ -72,7 +77,7 @@ void baseClass::settingToolBar()
 void baseClass::setSaveActionTex()
 {
     if(fileDetails.recentFiles.size() <= 0)
-        saveFileAction->setText("save As \t Ctrl+S");
+        saveFileAction->setText("Save As \t Ctrl+S");
 }
 
 void baseClass::openFile()
@@ -88,14 +93,7 @@ void baseClass::saveFile()
 
 void baseClass::openFolder()
 {
-    model = new customFileSystemModel(this);
     QString rootFolder = msysfilesmanager.openFolder(this);
-
-    // QDir dir (rootFolder);
-
-    // proxy = new CustomProxy();
-    // proxy->setRootPath(rootFolder);
-    // proxy->setSourceModel(model);
 
     model->setRootPath(rootFolder);
 

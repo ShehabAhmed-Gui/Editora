@@ -294,12 +294,6 @@
 			null
 		],
 		[
-			"E:/QtProjects/notebad/src/notebad/customproxy.h",
-			"MU",
-			"7VGUASVTHG/moc_customproxy.cpp",
-			null
-		],
-		[
 			"E:/QtProjects/notebad/src/notebad/mainwindow.h",
 			"MU",
 			"7VGUASVTHG/moc_mainwindow.cpp",
@@ -395,7 +389,6 @@
 			"MU",
 			null
 		],
-		[ "E:/QtProjects/notebad/src/notebad/customproxy.cpp", "MU", null ],
 		[ "E:/QtProjects/notebad/src/notebad/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

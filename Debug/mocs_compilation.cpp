@@ -4,5 +4,4 @@
 #include "FINY5OIUMY/moc_filesSystemInterface.cpp"
 #include "FINY5OIUMY/moc_filesmanager.cpp"
 #include "7VGUASVTHG/moc_customfilesystemmodel.cpp"
-#include "7VGUASVTHG/moc_customproxy.cpp"
 #include "7VGUASVTHG/moc_mainwindow.cpp"

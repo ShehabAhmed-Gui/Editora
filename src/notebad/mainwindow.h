@@ -3,11 +3,13 @@
 
 #include <QMainWindow>
 #include <QAction>
+#include <QFontDatabase>
+#include <QFont>
 #include <QToolButton>
-#include "filesmanager.h"
 #include <QFileSystemModel>
+
 #include "customfilesystemmodel.h"
-#include "customproxy.h"
+#include "filesmanager.h"
 // #include "folderstructure.h"
 
 QT_BEGIN_NAMESPACE
@@ -40,7 +42,6 @@ private:
 
     SystemFilesManager msysfilesmanager;
     customFileSystemModel *model;
-    CustomProxy *proxy;
     // FolderStructure folderModel;
 private slots:
     void openFile();

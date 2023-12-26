@@ -28,7 +28,6 @@ SyntaxHighLighter::SyntaxHighLighter(QTextDocument *parent)
         highlightingRules.append(rule);
     }
 
-    classFormat.setFontWeight(QFont::Bold);
     classFormat.setForeground(Qt::darkBlue);
 
     rule.pattern = QRegularExpression(QStringLiteral("\\bQ[A-Za-z]+\\b"));

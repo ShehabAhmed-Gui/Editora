@@ -13,6 +13,7 @@ CodeEditor::CodeEditor(QWidget *parent)
 
     updateLineNumberAreaWidth(0);
     highlightCurrentLine();
+    setDefaultFont();
 }
 
 int CodeEditor::lineNumberAreaWidth()
@@ -76,11 +77,23 @@ void CodeEditor::updateLineNumberArea(const QRect &rect, int dy)
         updateLineNumberAreaWidth(0);
 }
 
+void CodeEditor::setDefaultFont()
+{
+    int id = QFontDatabase::addApplicationFont(":/fonts/Lato/Lato-Regular.ttf");
+    QString family = QFontDatabase::applicationFontFamilies(id).at(0);
+
+    QFont font(family, 12, QFont::Normal);
+    this->setFont(font);
+}
+
 void CodeEditor::lineNumberAreaPaintEvent(QPaintEvent *event)
 {
+    int id = QFontDatabase::addApplicationFont(":/fonts/Robo_Mono/RobotoMono-VariableFont_wght.ttf");
+    QFont numbersLineFont(QFontDatabase::applicationFontFamilies(id), 13, QFont::PreferOutline);
+
     QPainter painter(lineNumberArea);
-    QColor textColor(Qt::GlobalColor::black);
-    painter.fillRect(event->rect(), textColor.lighter(170));
+    QColor backGroundColor(Qt::GlobalColor::black);
+    painter.fillRect(event->rect(), backGroundColor.lighter(170));
 
     QTextBlock block = firstVisibleBlock();
     int blockNumber = block.blockNumber();
@@ -90,7 +103,10 @@ void CodeEditor::lineNumberAreaPaintEvent(QPaintEvent *event)
     while (block.isValid() && top <= event->rect().bottom()) {
         if (block.isVisible() && bottom >= event->rect().top()) {
             QString number = QString::number(blockNumber + 1);
+
             painter.setPen(Qt::green);
+
+            painter.setFont(numbersLineFont);
             painter.drawText(0, top, lineNumberArea->width(), fontMetrics().height(),
                              Qt::AlignCenter, number);
         }

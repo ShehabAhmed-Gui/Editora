@@ -70,15 +70,62 @@ include CMakeFiles/notebad.dir/flags.make
 
 E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/resources.qrc
 E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: CMakeFiles/notebad_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_branch_end.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/exit.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/new_file.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_vline.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/save.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/open_folder.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_branch_open.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/open_file.png
-E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/tree_branch_closed.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/Oswald-VariableFont_wght.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/static/Oswald-ExtraLight.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/static/Oswald-Light.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/static/Oswald-SemiBold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/static/Oswald-Bold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/static/Oswald-Regular.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Oswald/static/Oswald-Medium.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-BoldItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-LightItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-Black.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-Regular.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-BlackItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-ThinItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-Italic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-Bold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-Light.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Lato/Lato-Thin.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/RobotoMono-VariableFont_wght.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/RobotoMono-Italic-VariableFont_wght.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-Medium.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-ExtraLightItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-SemiBoldItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-SemiBold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-ExtraLight.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-BoldItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-Italic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-Thin.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-ThinItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-LightItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-Bold.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-MediumItalic.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-Light.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/fonts/Robo_Mono/static/RobotoMono-Regular.ttf
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/tree_branch_end.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/exit.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/new_file.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/tree_vline.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/save.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/open_folder.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/tree_branch_open.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/open_file.png
+E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: E:/QtProjects/notebad/resources/icons/tree_branch_closed.png
 E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp: C:/Qt/6.5.0/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources/resources.qrc"
 	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json Debug
@@ -203,26 +250,11 @@ CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\notebad\customfilesystemmodel.cpp -o CMakeFiles\notebad.dir\src\notebad\customfilesystemmodel.cpp.s
 
-CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: CMakeFiles/notebad.dir/flags.make
-CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
-CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: E:/QtProjects/notebad/src/notebad/customproxy.cpp
-CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj -MF CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.obj.d -o CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.obj -c E:\QtProjects\notebad\src\notebad\customproxy.cpp
-
-CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.i"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\QtProjects\notebad\src\notebad\customproxy.cpp > CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.i
-
-CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.s"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\QtProjects\notebad\src\notebad\customproxy.cpp -o CMakeFiles\notebad.dir\src\notebad\customproxy.cpp.s
-
 CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/flags.make
 CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/includes_CXX.rsp
 CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: E:/QtProjects/notebad/Debug/3YJK5W5UP7/qrc_resources.cpp
 CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/notebad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj -MF CMakeFiles\notebad.dir\Debug\3YJK5W5UP7\qrc_resources.cpp.obj.d -o CMakeFiles\notebad.dir\Debug\3YJK5W5UP7\qrc_resources.cpp.obj -c E:\QtProjects\notebad\Debug\3YJK5W5UP7\qrc_resources.cpp
 
 CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
@@ -243,7 +275,6 @@ notebad_OBJECTS = \
 "CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj" \
 "CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj" \
 "CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj" \
-"CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj" \
 "CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj"
 
 # External object files for target notebad
@@ -257,7 +288,6 @@ notebad.exe: CMakeFiles/notebad.dir/src/code_editor/codeeditor.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/code_editor/syntaxhighlighter.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj
-notebad.exe: CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/Debug/3YJK5W5UP7/qrc_resources.cpp.obj
 notebad.exe: CMakeFiles/notebad.dir/build.make
 notebad.exe: C:/Qt/6.5.0/mingw_64/lib/libQt6Widgets.a
@@ -266,7 +296,7 @@ notebad.exe: C:/Qt/6.5.0/mingw_64/lib/libQt6Core.a
 notebad.exe: CMakeFiles/notebad.dir/linkLibs.rsp
 notebad.exe: CMakeFiles/notebad.dir/objects1.rsp
 notebad.exe: CMakeFiles/notebad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable notebad.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\QtProjects\notebad\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable notebad.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\notebad.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

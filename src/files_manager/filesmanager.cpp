@@ -17,7 +17,7 @@ QByteArray SystemFilesManager::openFile(const QString &filePath)
                 return file.readAll();
             file.close();
         }
-        qDebug () << file.errorString();
+        return QByteArray();
     }
 
     else if(filePath.isEmpty())
@@ -32,9 +32,8 @@ QByteArray SystemFilesManager::openFile(const QString &filePath)
                 return file.readAll();
             file.close();
         }
-        qDebug () << file.errorString();
+        return QByteArray();
     }
-
     return QByteArray();
 }
 
@@ -80,6 +79,7 @@ QString SystemFilesManager::openFolder(QWidget *parent = nullptr)
     if(!isSelected.isEmpty())
     {
         return isSelected;
+        qDebug() << isSelected;
         // QFileInfo fi (isSelected);
         // auto list = QDir (fi.absoluteFilePath()).entryInfoList(QDir::Filter::NoDotAndDotDot | QDir::AllEntries);
         // for(const QFileInfo &info : list)
@@ -88,7 +88,7 @@ QString SystemFilesManager::openFolder(QWidget *parent = nullptr)
         // }
         // return folderStructure;
     }
-    return "";
+    return QString();
     // return QList<QString>();
     // iterateOverFolders(isSelected);
 }

@@ -57,7 +57,6 @@ public:
         MainWindow->setStyleSheet(QString::fromUtf8("*{\n"
 "	background: rgb(46, 47, 48);\n"
 "	color: white;\n"
-"	font: 11pt \"Segoe UI\";\n"
 "}\n"
 "\n"
 "QToolTip\n"
@@ -65,12 +64,12 @@ public:
 "	background-color: black;\n"
 "	color: red;\n"
 "	\n"
-"	font: 8pt \"Segoe UI\";\n"
+"	/*font: 8pt \"Segoe UI\";*/\n"
 "}\n"
 "\n"
 "QMenuBar\n"
 "{\n"
-"	font: 11pt \"Segoe UI\";\n"
+"	/*font: 11pt \"Segoe UI\";*/\n"
 "	color: rgb(194, 194, 194);;\n"
 "	spacing: 5px;\n"
 "	background: black;\n"
@@ -116,8 +115,8 @@ public:
 "QToolButton::pressed\n"
 "{\n"
 "	border: none;\n"
-"	"
-                        "border-bottom: 1px solid white;\n"
+"	border-bottom: 1px sol"
+                        "id white;\n"
 "}\n"
 "\n"
 "QScrollBar:vertical\n"
@@ -146,22 +145,22 @@ public:
         actionNew = new QAction(MainWindow);
         actionNew->setObjectName("actionNew");
         QIcon icon;
-        icon.addFile(QString::fromUtf8(":/new_file.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/icons/new_file.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionNew->setIcon(icon);
         actionOpen = new QAction(MainWindow);
         actionOpen->setObjectName("actionOpen");
         QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/open_file.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/icons/open_file.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionOpen->setIcon(icon1);
         actionSave = new QAction(MainWindow);
         actionSave->setObjectName("actionSave");
         QIcon icon2;
-        icon2.addFile(QString::fromUtf8(":/save.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QString::fromUtf8(":/icons/save.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSave->setIcon(icon2);
         actionExit = new QAction(MainWindow);
         actionExit->setObjectName("actionExit");
         QIcon icon3;
-        icon3.addFile(QString::fromUtf8(":/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QString::fromUtf8(":/icons/exit.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionExit->setIcon(icon3);
         actionPaste = new QAction(MainWindow);
         actionPaste->setObjectName("actionPaste");
@@ -172,17 +171,19 @@ public:
         actionOpen_Folder = new QAction(MainWindow);
         actionOpen_Folder->setObjectName("actionOpen_Folder");
         QIcon icon4;
-        icon4.addFile(QString::fromUtf8(":/open_folder.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QString::fromUtf8(":/icons/open_folder.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionOpen_Folder->setIcon(icon4);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        centralwidget->setStyleSheet(QString::fromUtf8(""));
         horizontalLayout = new QHBoxLayout(centralwidget);
         horizontalLayout->setObjectName("horizontalLayout");
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
         Body = new QWidget(centralwidget);
         Body->setObjectName("Body");
         Body->setStyleSheet(QString::fromUtf8("QPlainTextEdit\n"
 "{\n"
-"	color: green;\n"
+"	color: white;\n"
 "	background: black;\n"
 "\n"
 "	selection-color: white;\n"
@@ -190,8 +191,6 @@ public:
 "\n"
 "	border: 1px solid rgb(98, 98, 98);	\n"
 "	padding: 5px;\n"
-"	\n"
-"	font: 600 14pt \"Segoe UI\";\n"
 "}\n"
 "QPlainTextEdit::focus\n"
 "{\n"
@@ -204,7 +203,9 @@ public:
 "}\n"
 ""));
         horizontalLayout_2 = new QHBoxLayout(Body);
+        horizontalLayout_2->setSpacing(0);
         horizontalLayout_2->setObjectName("horizontalLayout_2");
+        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
         folder_tree_container = new QWidget(Body);
         folder_tree_container->setObjectName("folder_tree_container");
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
@@ -215,32 +216,30 @@ public:
         folder_tree_container->setMinimumSize(QSize(350, 0));
         folder_tree_container->setStyleSheet(QString::fromUtf8("QTreeView\n"
 "{\n"
-"	background: black;\n"
-"	\n"
-"	font: 10pt \"Segoe UI\";\n"
+"	background: #101314;\n"
 "}\n"
 "QTreeView::branch:has-siblings:!adjoins-item {\n"
-"    border-image: url(:/tree_vline.png) 0;\n"
+"    border-image: url(:/icons/tree_vline.png) 0;\n"
 "}\n"
 "\n"
 "QTreeView::branch:has-siblings:adjoins-item {\n"
-"    border-image: url(:/tree_branch_more.png) 0;\n"
+"    /*border-image: url(:/icons/tree_branch_open.png) 0;*/\n"
 "}\n"
 "\n"
 "QTreeView::branch:!has-children:!has-siblings:adjoins-item {\n"
-"    border-image: url(:/tree_branch_end.png) 0;\n"
+"    border-image: url(:/icons/tree_branch_end.png) 0;\n"
 "}\n"
 "\n"
 "QTreeView::branch:has-children:!has-siblings:closed,\n"
 "QTreeView::branch:closed:has-children:has-siblings {\n"
 "        border-image: none;\n"
-"        image: url(:/tree_branch_closed.png);\n"
+"        image: url(:/icons/tree_branch_closed.png);\n"
 "}\n"
 "\n"
 "QTreeView::branch:open:has-children:!has-siblings,\n"
 "QTreeView::branch:open:has-children:has-siblings  {\n"
 "        border-image: none;\n"
-"        image: url(:/tree_branch_open.png);\n"
+"        image: url(:/icons/tree_branch_open.png);\n"
 "}\n"
 "\n"
 ""));
@@ -256,6 +255,7 @@ public:
         sizePolicy1.setHeightForWidth(treeView->sizePolicy().hasHeightForWidth());
         treeView->setSizePolicy(sizePolicy1);
         treeView->setMinimumSize(QSize(0, 0));
+        treeView->setStyleSheet(QString::fromUtf8(""));
 
         verticalLayout->addWidget(treeView);
 
@@ -264,6 +264,7 @@ public:
 
         textEditor = new CodeEditor(Body);
         textEditor->setObjectName("textEditor");
+        textEditor->setStyleSheet(QString::fromUtf8(""));
 
         horizontalLayout_2->addWidget(textEditor);
 
@@ -273,11 +274,11 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1014, 25));
+        menubar->setGeometry(QRect(0, 0, 1014, 21));
         menubar->setMinimumSize(QSize(0, 0));
         menuFile = new QMenu(menubar);
         menuFile->setObjectName("menuFile");
-        menuFile->setGeometry(QRect(344, 105, 160, 209));
+        menuFile->setGeometry(QRect(344, 101, 138, 181));
         menuFile->setMinimumSize(QSize(0, 0));
         menuEdit = new QMenu(menubar);
         menuEdit->setObjectName("menuEdit");
@@ -313,7 +314,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        actionNew->setText(QString());
+        actionNew->setText(QCoreApplication::translate("MainWindow", "casdasds", nullptr));
         actionOpen->setText(QString());
         actionSave->setText(QString());
         actionExit->setText(QString());

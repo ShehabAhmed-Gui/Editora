@@ -15,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/notebad.dir/src/main.cpp.obj.d"
   "CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj"
   "CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.obj.d"
-  "CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj"
-  "CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj.d"
   "CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj"
   "CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj.d"
   "E:/QtProjects/notebad/Debug"

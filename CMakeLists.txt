@@ -25,15 +25,12 @@ set(srcs
         src/notebad/mainwindow.h
         src/notebad/customfilesystemmodel.h
         src/notebad/customfilesystemmodel.cpp
+
         src/notebad/mainwindow.ui
-
-
 )
-add_executable(notebad ${srcs}
-    src/notebad/customproxy.h src/notebad/customproxy.cpp
-    resources/resources.qrc
+set(qrc  resources/resources.qrc)
 
-)
+add_executable(notebad ${srcs} ${qrc})
 
 set_target_properties(notebad PROPERTIES
     AUTORCC ON

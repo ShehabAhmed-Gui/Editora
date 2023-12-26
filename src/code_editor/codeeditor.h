@@ -26,6 +26,7 @@ private slots:
     void updateLineNumberArea(const QRect &rect, int dy);
 
 private:
+    void setDefaultFont();
     QWidget *lineNumberArea;
     SyntaxHighLighter *Highlighter;
 };

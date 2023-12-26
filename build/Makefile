@@ -333,30 +333,6 @@ src/notebad/customfilesystemmodel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customfilesystemmodel.cpp.s
 .PHONY : src/notebad/customfilesystemmodel.cpp.s
 
-src/notebad/customproxy.obj: src/notebad/customproxy.cpp.obj
-.PHONY : src/notebad/customproxy.obj
-
-# target to build an object file
-src/notebad/customproxy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.obj
-.PHONY : src/notebad/customproxy.cpp.obj
-
-src/notebad/customproxy.i: src/notebad/customproxy.cpp.i
-.PHONY : src/notebad/customproxy.i
-
-# target to preprocess a source file
-src/notebad/customproxy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.i
-.PHONY : src/notebad/customproxy.cpp.i
-
-src/notebad/customproxy.s: src/notebad/customproxy.cpp.s
-.PHONY : src/notebad/customproxy.s
-
-# target to generate assembly for a file
-src/notebad/customproxy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\notebad.dir\build.make CMakeFiles/notebad.dir/src/notebad/customproxy.cpp.s
-.PHONY : src/notebad/customproxy.cpp.s
-
 src/notebad/mainwindow.obj: src/notebad/mainwindow.cpp.obj
 .PHONY : src/notebad/mainwindow.obj
 
@@ -415,9 +391,6 @@ help:
 	@echo ... src/notebad/customfilesystemmodel.obj
 	@echo ... src/notebad/customfilesystemmodel.i
 	@echo ... src/notebad/customfilesystemmodel.s
-	@echo ... src/notebad/customproxy.obj
-	@echo ... src/notebad/customproxy.i
-	@echo ... src/notebad/customproxy.s
 	@echo ... src/notebad/mainwindow.obj
 	@echo ... src/notebad/mainwindow.i
 	@echo ... src/notebad/mainwindow.s
