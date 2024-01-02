@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(notebad_implementation VERSION 0.1 LANGUAGES CXX)
+project(Editora VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_PREFIX_PATH "C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/")
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -30,17 +30,16 @@ set(srcs
 )
 set(qrc  resources/resources.qrc)
 
-add_executable(notebad ${srcs} ${qrc}
-     )
+add_executable(Editora ${srcs} ${qrc})
 
-set_target_properties(notebad PROPERTIES
+set_target_properties(Editora PROPERTIES
     AUTORCC ON
     AUTOMOC ON
     AUTOUIC ON
     AUTOGEN_BUILD_DIR ${CMAKE_SOURCE_DIR}/Debug
 )
 
-target_include_directories(notebad PUBLIC
+target_include_directories(Editora PUBLIC
     ${CMAKE_SOURCE_DIR}/src/
     ${CMAKE_SOURCE_DIR}/src/code_editor/
     ${CMAKE_SOURCE_DIR}/src/files_manager/
@@ -55,7 +54,7 @@ find_package(Qt6 REQUIRED COMPONENTS
     Gui
 )
 
-target_link_libraries(notebad PRIVATE
+target_link_libraries(Editora PRIVATE
     Qt6::Widgets
     Qt6::Core
     Qt6::Gui

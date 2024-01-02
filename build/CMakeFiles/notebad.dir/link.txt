@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\notebad.dir/objects.a
-C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\notebad.dir/objects.a @CMakeFiles\notebad.dir\objects1.rsp
-C:\Qt\Tools\mingw1120_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\notebad.dir/objects.a -Wl,--no-whole-archive -o notebad.exe -Wl,--out-implib,libnotebad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\notebad.dir\linkLibs.rsp

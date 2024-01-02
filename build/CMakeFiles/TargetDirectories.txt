@@ -1,4 +1,0 @@
-E:/QtProjects/notebad/build/CMakeFiles/notebad.dir
-E:/QtProjects/notebad/build/CMakeFiles/edit_cache.dir
-E:/QtProjects/notebad/build/CMakeFiles/rebuild_cache.dir
-E:/QtProjects/notebad/build/CMakeFiles/notebad_autogen.dir
