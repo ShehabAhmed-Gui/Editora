@@ -7,10 +7,10 @@
 #include <QFont>
 #include <QToolButton>
 #include <QFileSystemModel>
+#include <QLabel>
 
 #include "customfilesystemmodel.h"
 #include "filesmanager.h"
-// #include "folderstructure.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -38,6 +38,11 @@ private:
     QAction *openFileAction;
     QAction *saveFileAction;
     QAction *openFolderAction;
+
+    /*2nd tool bar actions*/
+    QAction *recentFilesAction;
+    QMenu *recentFilesMenu;
+
     QStringList recentFiles;
 
     SystemFilesManager msysfilesmanager;
@@ -46,6 +51,8 @@ private:
 private slots:
     void openFile();
     void saveFile();
+
+    void recentFilesChanged(const QString &fileName);
 
     void openFolder();
     void itemDoubleClicked(const QModelIndex &index);

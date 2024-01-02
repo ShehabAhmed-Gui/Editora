@@ -146,12 +146,14 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -160,6 +162,7 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileIconProvider \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QWidget \
@@ -167,6 +170,8 @@ E:/QtProjects/notebad/Debug/7VGUASVTHG/moc_mainwindow.cpp: E:/QtProjects/notebad
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfileiconprovider.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabwidget.h \

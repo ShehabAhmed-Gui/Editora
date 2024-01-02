@@ -37,7 +37,7 @@ public:
     QAction *actionCopy;
     QAction *actionOpen_Folder;
     QWidget *centralwidget;
-    QHBoxLayout *horizontalLayout;
+    QVBoxLayout *verticalLayout_2;
     QWidget *Body;
     QHBoxLayout *horizontalLayout_2;
     QWidget *folder_tree_container;
@@ -48,6 +48,7 @@ public:
     QMenu *menuFile;
     QMenu *menuEdit;
     QToolBar *toolBar;
+    QToolBar *files_toolBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -85,7 +86,7 @@ public:
 "\n"
 "QMenu\n"
 "{\n"
-"	background-color: rgb(47, 47, 47);\n"
+"	background-color:  rgb(47, 47, 47);\n"
 "	margin: 4px;\n"
 "	icon-size: 12px;\n"
 "}\n"
@@ -106,17 +107,29 @@ public:
 "	spacing: 18px;\n"
 "}\n"
 "\n"
-"QToolButton\n"
+"QToolBar#toolBar > QToolButton\n"
 "{\n"
 "	background-color: transparent;\n"
 "	border: none;\n"
 "	border-bottom: 1px solid red;\n"
 "}\n"
-"QToolButton::pressed\n"
+"QToolBar#toolBar > QToolButton::pressed\n"
 "{\n"
+"	bo"
+                        "rder: none;\n"
+"	border-bottom: 1px solid white;\n"
+"}\n"
+"\n"
+"QToolBar#files_toolBar\n"
+"{\n"
+"	spacing: 18px;\n"
+"}\n"
+"\n"
+"QToolBar#files_toolBar > QToolButton\n"
+"{\n"
+"	background-color: transparent;\n"
 "	border: none;\n"
-"	border-bottom: 1px sol"
-                        "id white;\n"
+"	border-bottom: 1px solid white;\n"
 "}\n"
 "\n"
 "QScrollBar:vertical\n"
@@ -176,11 +189,15 @@ public:
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setStyleSheet(QString::fromUtf8(""));
-        horizontalLayout = new QHBoxLayout(centralwidget);
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_2 = new QVBoxLayout(centralwidget);
+        verticalLayout_2->setObjectName("verticalLayout_2");
         Body = new QWidget(centralwidget);
         Body->setObjectName("Body");
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(Body->sizePolicy().hasHeightForWidth());
+        Body->setSizePolicy(sizePolicy);
         Body->setStyleSheet(QString::fromUtf8("QPlainTextEdit\n"
 "{\n"
 "	color: white;\n"
@@ -208,9 +225,6 @@ public:
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
         folder_tree_container = new QWidget(Body);
         folder_tree_container->setObjectName("folder_tree_container");
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(folder_tree_container->sizePolicy().hasHeightForWidth());
         folder_tree_container->setSizePolicy(sizePolicy);
         folder_tree_container->setMinimumSize(QSize(350, 0));
@@ -269,7 +283,7 @@ public:
         horizontalLayout_2->addWidget(textEditor);
 
 
-        horizontalLayout->addWidget(Body);
+        verticalLayout_2->addWidget(Body);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -293,6 +307,10 @@ public:
         toolBar->setMinimumSize(QSize(0, 40));
         toolBar->setMaximumSize(QSize(16777215, 16777215));
         MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
+        files_toolBar = new QToolBar(MainWindow);
+        files_toolBar->setObjectName("files_toolBar");
+        MainWindow->addToolBar(Qt::TopToolBarArea, files_toolBar);
+        MainWindow->insertToolBarBreak(files_toolBar);
 
         menubar->addAction(menuFile->menuAction());
         menubar->addAction(menuEdit->menuAction());
@@ -326,6 +344,7 @@ public:
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
         menuEdit->setTitle(QCoreApplication::translate("MainWindow", "Edit", nullptr));
         toolBar->setWindowTitle(QCoreApplication::translate("MainWindow", "toolBar", nullptr));
+        files_toolBar->setWindowTitle(QCoreApplication::translate("MainWindow", "toolBar_2", nullptr));
     } // retranslateUi
 
 };

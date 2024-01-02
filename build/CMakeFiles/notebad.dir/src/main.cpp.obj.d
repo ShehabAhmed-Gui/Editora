@@ -402,6 +402,12 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
@@ -422,7 +428,6 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
- C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
  C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \

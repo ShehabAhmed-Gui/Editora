@@ -39,8 +39,10 @@ namespace {
 struct qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS = QtMocHelpers::stringData(
     "SystemFilesManager",
-    "openFile",
+    "recentFilesChanged",
     "",
+    "fileName",
+    "openFile",
     "filePath",
     "saveFile",
     "filepath",
@@ -51,36 +53,42 @@ static constexpr auto qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS = QtMoc
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS_t {
-    uint offsetsAndSizes[20];
+    uint offsetsAndSizes[24];
     char stringdata0[19];
-    char stringdata1[9];
+    char stringdata1[19];
     char stringdata2[1];
     char stringdata3[9];
     char stringdata4[9];
     char stringdata5[9];
-    char stringdata6[8];
-    char stringdata7[11];
-    char stringdata8[9];
-    char stringdata9[7];
+    char stringdata6[9];
+    char stringdata7[9];
+    char stringdata8[8];
+    char stringdata9[11];
+    char stringdata10[9];
+    char stringdata11[7];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS_t::offsetsAndSizes) + ofs), len 
 Q_CONSTINIT static const qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS_t qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS = {
     {
         QT_MOC_LITERAL(0, 18),  // "SystemFilesManager"
-        QT_MOC_LITERAL(19, 8),  // "openFile"
-        QT_MOC_LITERAL(28, 0),  // ""
-        QT_MOC_LITERAL(29, 8),  // "filePath"
-        QT_MOC_LITERAL(38, 8),  // "saveFile"
-        QT_MOC_LITERAL(47, 8),  // "filepath"
-        QT_MOC_LITERAL(56, 7),  // "contest"
-        QT_MOC_LITERAL(64, 10),  // "openFolder"
-        QT_MOC_LITERAL(75, 8),  // "QWidget*"
-        QT_MOC_LITERAL(84, 6)   // "parent"
+        QT_MOC_LITERAL(19, 18),  // "recentFilesChanged"
+        QT_MOC_LITERAL(38, 0),  // ""
+        QT_MOC_LITERAL(39, 8),  // "fileName"
+        QT_MOC_LITERAL(48, 8),  // "openFile"
+        QT_MOC_LITERAL(57, 8),  // "filePath"
+        QT_MOC_LITERAL(66, 8),  // "saveFile"
+        QT_MOC_LITERAL(75, 8),  // "filepath"
+        QT_MOC_LITERAL(84, 7),  // "contest"
+        QT_MOC_LITERAL(92, 10),  // "openFolder"
+        QT_MOC_LITERAL(103, 8),  // "QWidget*"
+        QT_MOC_LITERAL(112, 6)   // "parent"
     },
     "SystemFilesManager",
-    "openFile",
+    "recentFilesChanged",
     "",
+    "fileName",
+    "openFile",
     "filePath",
     "saveFile",
     "filepath",
@@ -99,24 +107,30 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSSystemFilesManagerENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    1,   44,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   38,    2, 0x0a,    1 /* Public */,
-       1,    0,   41,    2, 0x2a,    3 /* Public | MethodCloned */,
-       4,    2,   42,    2, 0x0a,    4 /* Public */,
-       7,    1,   47,    2, 0x0a,    7 /* Public */,
+       4,    1,   47,    2, 0x0a,    3 /* Public */,
+       4,    0,   50,    2, 0x2a,    5 /* Public | MethodCloned */,
+       6,    2,   51,    2, 0x0a,    6 /* Public */,
+       9,    1,   56,    2, 0x0a,    9 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
 
  // slots: parameters
-    QMetaType::QByteArray, QMetaType::QString,    3,
+    QMetaType::QByteArray, QMetaType::QString,    5,
     QMetaType::QByteArray,
-    QMetaType::Bool, QMetaType::QString, QMetaType::QString,    5,    6,
-    QMetaType::QString, 0x80000000 | 8,    9,
+    QMetaType::Bool, QMetaType::QString, QMetaType::QString,    7,    8,
+    QMetaType::QString, 0x80000000 | 10,   11,
 
        0        // eod
 };
@@ -130,6 +144,9 @@ Q_CONSTINIT const QMetaObject SystemFilesManager::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSSystemFilesManagerENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<SystemFilesManager, std::true_type>,
+        // method 'recentFilesChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         // method 'openFile'
         QtPrivate::TypeAndForceComplete<QByteArray, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
@@ -152,26 +169,36 @@ void SystemFilesManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         auto *_t = static_cast<SystemFilesManager *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: { QByteArray _r = _t->openFile((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+        case 0: _t->recentFilesChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 1: { QByteArray _r = _t->openFile((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
             if (_a[0]) *reinterpret_cast< QByteArray*>(_a[0]) = std::move(_r); }  break;
-        case 1: { QByteArray _r = _t->openFile();
+        case 2: { QByteArray _r = _t->openFile();
             if (_a[0]) *reinterpret_cast< QByteArray*>(_a[0]) = std::move(_r); }  break;
-        case 2: { bool _r = _t->saveFile((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])));
+        case 3: { bool _r = _t->saveFile((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 3: { QString _r = _t->openFolder((*reinterpret_cast< std::add_pointer_t<QWidget*>>(_a[1])));
+        case 4: { QString _r = _t->openFolder((*reinterpret_cast< std::add_pointer_t<QWidget*>>(_a[1])));
             if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         switch (_id) {
         default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 3:
+        case 4:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QWidget* >(); break;
             }
             break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (SystemFilesManager::*)(const QString & );
+            if (_t _q_method = &SystemFilesManager::recentFilesChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
         }
     }
 }
@@ -195,14 +222,21 @@ int SystemFilesManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
+}
+
+// SIGNAL 0
+void SystemFilesManager::recentFilesChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP

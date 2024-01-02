@@ -23,6 +23,9 @@ class SystemFilesManager : public FilesSystemInterFace
 public:
     explicit SystemFilesManager(QObject *parent = nullptr);
 
+signals:
+    void recentFilesChanged(const QString &fileName);
+
 public slots:
     QByteArray openFile(const QString &filePath = "") override;
     bool saveFile(const QString &filepath, const QString &contest) override;

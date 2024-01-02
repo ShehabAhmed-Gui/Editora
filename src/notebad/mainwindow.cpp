@@ -2,13 +2,12 @@
 #include "./ui_mainwindow.h"
 #include "filesmanager.h"
 #include "customfilesystemmodel.h"
-#include <QFontDatabase>
-#include <QFont>
 
 baseClass::baseClass(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
     , model(new customFileSystemModel(this))
+    , recentFilesMenu(new QMenu(this))
 {
     ui->setupUi(this);
     baseClass::setWindowTitle("notebad++ implementation");
@@ -31,6 +30,8 @@ baseClass::baseClass(QWidget *parent)
 
     connect(openFileAction, &QAction::triggered, this, &baseClass::openFile);
     connect(saveFileAction, &QAction::triggered, this, &baseClass::saveFile);
+    connect(&msysfilesmanager, &SystemFilesManager::recentFilesChanged, this, &baseClass::recentFilesChanged);
+
 
     connect(openFolderAction, &QAction::triggered, this, &baseClass::openFolder);
     connect(ui->actionExit, &QAction::triggered, this, &baseClass::close);
@@ -52,6 +53,8 @@ void baseClass::settingToolBar()
     open_folderAction = new QAction;
     saveAction = new QAction;
 
+    recentFilesAction = new QAction;
+
     connect(open_fileAction, &QAction::triggered, this, &baseClass::openFile);
     connect(saveAction, &QAction::triggered, this, &baseClass::saveFile);
 
@@ -61,7 +64,6 @@ void baseClass::settingToolBar()
     open_fileAction->setIcon(QIcon(":/icons/open_file.png"));
     open_folderAction->setIcon(QIcon(":/icons/open_folder.png"));
     saveAction->setIcon(QIcon(":/icons/save.png"));
-
 
     ui->toolBar->setMovable(false);
     ui->toolBar->setIconSize(QSize(18, 18));
@@ -82,6 +84,7 @@ void baseClass::setSaveActionTex()
 
 void baseClass::openFile()
 {
+
     ui->textEditor->setPlainText(msysfilesmanager.openFile());
     saveFileAction->setText(QString("Save %1 \t Ctrl+S").arg('"' + fileDetails.recentFiles.last().fileName + '"'));
 }
@@ -89,6 +92,16 @@ void baseClass::openFile()
 void baseClass::saveFile()
 {
     msysfilesmanager.saveFile(fileDetails.recentFiles.last().filePath, ui->textEditor->toPlainText());
+}
+
+void baseClass::recentFilesChanged(const QString &fileName)
+{
+    recentFilesMenu->addAction(new QAction(fileName));
+    recentFilesMenu->addSeparator();
+    recentFilesAction->setMenu(recentFilesMenu);
+    recentFilesAction->setText(fileName);
+    ui->files_toolBar->addAction(recentFilesAction);
+
 }
 
 void baseClass::openFolder()

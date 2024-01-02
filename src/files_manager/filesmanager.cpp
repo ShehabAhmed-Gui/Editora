@@ -1,7 +1,10 @@
 #include "filesmanager.h"
 #include <QDirIterator>
 SystemFilesManager::SystemFilesManager(QObject *parent)
-    : FilesSystemInterFace(parent), mfilePath(""){}
+    : FilesSystemInterFace(parent)
+    , mfilePath("")
+{}
+
 FilesSystemInterFace::~FilesSystemInterFace(){}
 
 QByteArray SystemFilesManager::openFile(const QString &filePath)
@@ -13,8 +16,11 @@ QByteArray SystemFilesManager::openFile(const QString &filePath)
 
         if(file.open(QIODevice::ReadOnly | QIODevice::Text))
         {
+             emit recentFilesChanged(fileDetails.fileName);
+
             while(!file.atEnd())
-                return file.readAll();
+                return file.readLine();
+
             file.close();
         }
         return QByteArray();
@@ -28,8 +34,11 @@ QByteArray SystemFilesManager::openFile(const QString &filePath)
 
         if(file.open(QIODevice::ReadOnly | QIODevice::Text))
         {
+            emit recentFilesChanged(fileDetails.fileName);
+
             while(!file.atEnd())
-                return file.readAll();
+                return file.readLine();
+
             file.close();
         }
         return QByteArray();

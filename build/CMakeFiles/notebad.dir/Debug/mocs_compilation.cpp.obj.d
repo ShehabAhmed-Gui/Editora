@@ -484,5 +484,8 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
  E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
  E:/QtProjects/notebad/src/files_manager/filesmanager.h

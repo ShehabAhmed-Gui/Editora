@@ -30,7 +30,8 @@ set(srcs
 )
 set(qrc  resources/resources.qrc)
 
-add_executable(notebad ${srcs} ${qrc})
+add_executable(notebad ${srcs} ${qrc}
+     )
 
 set_target_properties(notebad PROPERTIES
     AUTORCC ON

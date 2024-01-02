@@ -488,6 +488,9 @@ CMakeFiles/notebad.dir/Debug/mocs_compilation.cpp.obj: E:/QtProjects/notebad/Deb
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolButton \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
   E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
   E:/QtProjects/notebad/src/files_manager/filesmanager.h
 
@@ -2490,6 +2493,12 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: E:/QtProjects/notebad/src/main.cpp \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
   E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
@@ -2510,7 +2519,6 @@ CMakeFiles/notebad.dir/src/main.cpp.obj: E:/QtProjects/notebad/src/main.cpp \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
-  C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
@@ -3330,6 +3338,12 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: E:/QtProjects/notebad/src
   C:/Qt/6.5.0/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h \
+  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
   E:/QtProjects/notebad/src/notebad/customfilesystemmodel.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qobject.h \
@@ -3350,7 +3364,6 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: E:/QtProjects/notebad/src
   C:/Qt/6.5.0/mingw_64/include/QtCore/qfile.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QFileDialog \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qfiledialog.h \
-  C:/Qt/6.5.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qlist.h \
@@ -3380,7 +3393,6 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: E:/QtProjects/notebad/src
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qheaderview.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractitemview.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-  C:/Qt/6.5.0/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.5.0/mingw_64/include/QtCore/qitemselectionmodel.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/qstyleoption.h \
@@ -3436,7 +3448,6 @@ CMakeFiles/notebad.dir/src/notebad/mainwindow.cpp.obj: E:/QtProjects/notebad/src
   C:/Qt/6.5.0/mingw_64/include/QtGui/qrawfont.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qfontdatabase.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextcursor.h \
-  C:/Qt/6.5.0/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.5.0/mingw_64/include/QtGui/QTextCharFormat \
   C:/Qt/6.5.0/mingw_64/include/QtGui/qtextformat.h \
   C:/Qt/6.5.0/mingw_64/include/QtWidgets/QPlainTextEdit \
@@ -3945,11 +3956,13 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/exec
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h:
 
-C:/Qt/6.5.0/mingw_64/include/QtGui/QTextCharFormat:
-
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+C:/Qt/6.5.0/mingw_64/include/QtGui/qpicture.h:
+
+C:/Qt/6.5.0/mingw_64/include/QtGui/QTextCharFormat:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h:
 
@@ -4031,9 +4044,9 @@ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_compat.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator:
 
-C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd:
-
 C:/Qt/6.5.0/mingw_64/include/QtWidgets/QTreeView:
+
+C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h:
 
@@ -4255,8 +4268,6 @@ C:/Qt/6.5.0/mingw_64/include/QtCore/qdiriterator.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map:
 
-C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbar.h:
-
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h:
 
 C:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h:
@@ -4264,8 +4275,6 @@ C:/Qt/6.5.0/mingw_64/include/QtCore/qbindingstorage.h:
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime:
 
 C:/Qt/6.5.0/mingw_64/include/QtCore/qregularexpression.h:
-
-C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolBar:
 
 C:/Qt/6.5.0/mingw_64/include/QtCore/qshareddata.h:
 
@@ -4280,6 +4289,8 @@ C:/Qt/6.5.0/mingw_64/include/QtCore/qstringconverter_base.h:
 C:/Qt/6.5.0/mingw_64/include/QtCore/qsharedpointer_impl.h:
 
 C:/Qt/6.5.0/mingw_64/include/QtCore/qset.h:
+
+C:/Qt/6.5.0/mingw_64/include/QtWidgets/QLabel:
 
 C:/Qt/6.5.0/mingw_64/include/QtWidgets/qabstractitemview.h:
 
@@ -4425,6 +4436,8 @@ C:/Qt/6.5.0/mingw_64/include/QtGui/QFontDatabase:
 
 C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbutton.h:
 
+C:/Qt/6.5.0/mingw_64/include/QtWidgets/qlabel.h:
+
 E:/QtProjects/notebad/src/code_editor/LineNumberArea.h:
 
 C:/Qt/6.5.0/mingw_64/include/QtGui/QPaintEvent:
@@ -4472,6 +4485,10 @@ C:/Qt/6.5.0/mingw_64/include/QtWidgets/qstyle.h:
 C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtabbar.h:
 
 C:/Qt/6.5.0/mingw_64/include/QtWidgets/qmenu.h:
+
+C:/Qt/6.5.0/mingw_64/include/QtWidgets/QToolBar:
+
+C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtoolbar.h:
 
 C:/Qt/6.5.0/mingw_64/include/QtWidgets/qtreeview.h:
 
