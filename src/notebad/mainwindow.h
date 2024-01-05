@@ -9,8 +9,9 @@
 #include <QFileSystemModel>
 #include <QLabel>
 
-#include "customfilesystemmodel.h"
 #include "filesmanager.h"
+#include "customfilesystemmodel.h"
+#include "shortkeysmanager.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -28,6 +29,7 @@ private:
 private:
     void settingToolBar();
     void setSaveActionTex();
+    void settingShortCuts();
 private:
     QAction *newAction;
     QAction *open_fileAction;
@@ -47,6 +49,7 @@ private:
 
     SystemFilesManager msysfilesmanager;
     customFileSystemModel *model;
+    ShortKeysManager *shortKeys;
     // FolderStructure folderModel;
 private slots:
     void openFile();

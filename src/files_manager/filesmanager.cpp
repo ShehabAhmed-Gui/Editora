@@ -19,7 +19,7 @@ QByteArray SystemFilesManager::openFile(const QString &filePath)
              emit recentFilesChanged(fileDetails.fileName);
 
             while(!file.atEnd())
-                return file.readLine();
+                return file.readAll();
 
             file.close();
         }
@@ -37,11 +37,10 @@ QByteArray SystemFilesManager::openFile(const QString &filePath)
             emit recentFilesChanged(fileDetails.fileName);
 
             while(!file.atEnd())
-                return file.readLine();
+                return file.readAll();
 
             file.close();
         }
-        return QByteArray();
     }
     return QByteArray();
 }
@@ -60,13 +59,6 @@ bool SystemFilesManager::saveFile(const QString &filepath, const QString &contes
     }
     qDebug() << file_.errorString();
     return false;
-}
-
-void SystemFilesManager::iterateOverFolders(const QString &folderPath)
-{
-    QDirIterator it(folderPath, QDir::Dirs | QDir::NoDotAndDotDot, QDirIterator::Subdirectories);
-    while (it.hasNext())
-        qDebug() << it.next();
 }
 
 void SystemFilesManager::setFileProperties(QFile &file)

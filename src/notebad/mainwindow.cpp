@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "filesmanager.h"
-#include "customfilesystemmodel.h"
+
 
 baseClass::baseClass(QWidget *parent)
     : QMainWindow(parent)
@@ -38,7 +37,7 @@ baseClass::baseClass(QWidget *parent)
 
     settingToolBar();
     setSaveActionTex();
-    qDebug() << this->font();
+    settingShortCuts();
 }
 
 baseClass::~baseClass()
@@ -82,11 +81,26 @@ void baseClass::setSaveActionTex()
         saveFileAction->setText("Save As \t Ctrl+S");
 }
 
+void baseClass::settingShortCuts()
+{
+    shortKeys = new ShortKeysManager(this);
+    shortKeys->init();
+
+    connect(shortKeys, &ShortKeysManager::exitScActivated, this, &baseClass::close);
+    connect(shortKeys, &ShortKeysManager::openFileScActivated, this, &baseClass::openFile);
+    connect(shortKeys, &ShortKeysManager::openFolderScActivated, this, &baseClass::openFolder);
+    connect(shortKeys, &ShortKeysManager::saveFileScActivated, this, &baseClass::saveFile);
+}
+
 void baseClass::openFile()
 {
+    QString fileContent = msysfilesmanager.openFile();
+    if(!fileContent.isEmpty())
+    {
+        ui->textEditor->setPlainText(fileContent);
+        saveFileAction->setText(QString("Save %1 \t Ctrl+S").arg('"' + fileDetails.recentFiles.last().fileName + '"'));
+    }
 
-    ui->textEditor->setPlainText(msysfilesmanager.openFile());
-    saveFileAction->setText(QString("Save %1 \t Ctrl+S").arg('"' + fileDetails.recentFiles.last().fileName + '"'));
 }
 
 void baseClass::saveFile()
@@ -108,7 +122,9 @@ void baseClass::openFolder()
 {
     QString rootFolder = msysfilesmanager.openFolder(this);
 
-    model->setRootPath(rootFolder);
+    if(!rootFolder.isEmpty())
+            model->setRootPath(rootFolder);
+
 
     ui->treeView->setModel(model);
     ui->treeView->setRootIndex(model->index(rootFolder));

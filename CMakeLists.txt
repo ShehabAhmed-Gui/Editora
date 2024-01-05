@@ -30,7 +30,8 @@ set(srcs
 )
 set(qrc  resources/resources.qrc)
 
-add_executable(Editora ${srcs} ${qrc})
+add_executable(Editora ${srcs} ${qrc}
+    src/notebad/shortkeysmanager.h src/notebad/shortkeysmanager.cpp)
 
 set_target_properties(Editora PROPERTIES
     AUTORCC ON
